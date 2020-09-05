@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\creativejam.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1011CC42-F0E8-4C4F-AA4F-CA1C0FCC81DD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\creativejam.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\creativejamEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{65E09581-0345-4F2D-AD46-B80AF5405A46}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\creativejam">
+      <UniqueIdentifier>{5A11B2A8-5BC1-47D4-A3D4-E6525F30A0A2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\creativejam\creativejam.Build.cs">
+      <Filter>Source\creativejam</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\creativejam\creativejam.cpp">
+      <Filter>Source\creativejam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\creativejam\creativejam.h">
+      <Filter>Source\creativejam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\creativejam\creativejamCharacter.cpp">
+      <Filter>Source\creativejam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\creativejam\creativejamCharacter.h">
+      <Filter>Source\creativejam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\creativejam\creativejamGameMode.cpp">
+      <Filter>Source\creativejam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\creativejam\creativejamGameMode.h">
+      <Filter>Source\creativejam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\creativejam\creativejamHUD.cpp">
+      <Filter>Source\creativejam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\creativejam\creativejamHUD.h">
+      <Filter>Source\creativejam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\creativejam\creativejamProjectile.cpp">
+      <Filter>Source\creativejam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\creativejam\creativejamProjectile.h">
+      <Filter>Source\creativejam</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
