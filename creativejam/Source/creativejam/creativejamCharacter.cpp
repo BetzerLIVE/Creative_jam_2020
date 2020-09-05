@@ -46,7 +46,7 @@ AcreativejamCharacter::AcreativejamCharacter()
 
 	CurrentHealth = MaxHealth;
 
-	DestructibleCheckDistance = 2000.f;
+	DestructibleCheckDistance = 1000.f;
 
 	DestructibleCheckFrequency = 0.f;
 
@@ -104,7 +104,6 @@ void AcreativejamCharacter::SetDestructibleCheckDistance(float CheckDistance)
 
 void AcreativejamCharacter::PerformDestructibleCheck()
 {
-
 	if (GetController() == nullptr)
 	{
 		return;
@@ -135,12 +134,10 @@ void AcreativejamCharacter::PerformDestructibleCheck()
 				if (DestructibleComponent != GetDestructible() && Distance <= DestructibleComponent->InteractionDistance)
 				{
 					FoundNewDestructible(DestructibleComponent);
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("trouve"));
 				}
 				else if (Distance > DestructibleComponent->InteractionDistance && GetDestructible())
 				{
 					CouldntFindDestructible();
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("rien trouve"));
 				}
 				return;
 			}

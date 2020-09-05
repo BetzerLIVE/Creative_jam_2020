@@ -7,11 +7,11 @@ UDestructibleComponent::UDestructibleComponent()
 {
 	SetComponentTickEnabled(false);
 
-	InteractionDistance = 200.f;
+	InteractionDistance = 1000.f;
 	DestructibleNameText = FText::FromString("Building");
 
 	Space = EWidgetSpace::Screen;
-	DrawSize = FIntPoint(600, 50);
+	DrawSize = FIntPoint(400, 100);
 	bDrawAtDesiredSize = true;
 
 	SetActive(true);

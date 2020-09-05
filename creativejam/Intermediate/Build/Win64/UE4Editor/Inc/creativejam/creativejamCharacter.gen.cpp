@@ -236,9 +236,11 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/*config=Game*/" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "creativejamCharacter.h" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
+		{ "ToolTip", "config=Game" },
 	};
 #endif
 #if WITH_METADATA
@@ -409,7 +411,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AcreativejamCharacter, 1303344326);
+	IMPLEMENT_CLASS(AcreativejamCharacter, 2136008320);
 	template<> CREATIVEJAM_API UClass* StaticClass<AcreativejamCharacter>()
 	{
 		return AcreativejamCharacter::StaticClass();

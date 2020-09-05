@@ -1,15 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020).
-  Parsing headers for creativejamEditor
-    Running UnrealHeaderTool "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\creativejam.uproject" "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\creativejamEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Nathanael\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for creativejamEditor in 4,4397476 seconds
+  Creating makefile for creativejamEditor (no existing makefile)
   Building creativejamEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] creativejamCharacter.cpp
-    [2/4] UE4Editor-creativejam-0021.lib
-       Cr�ation de la biblioth�que C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0021.lib et de l'objet C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0021.exp
-    [3/4] UE4Editor-creativejam-0021.dll
-       Cr�ation de la biblioth�que C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0021.suppressed.lib et de l'objet C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0021.suppressed.exp
-    [4/4] creativejamEditor.target
-  Total time in Parallel executor: 4,42 seconds
-  Total execution time: 9,48 seconds
+  Building 5 actions with 12 processes...
+    [1/5] DestructibleComponent.cpp
+C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Source\creativejam\DestructibleComponent.cpp(41): warning C4996: 'AActor::GetComponentsByClass': Use one of the GetComponents implementations as appropriate Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Source\creativejam\DestructibleComponent.cpp(58): warning C4996: 'AActor::GetComponentsByClass': Use one of the GetComponents implementations as appropriate Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [2/5] creativejamCharacter.cpp
+    [3/5] UE4Editor-creativejam-0025.lib
+       Cr�ation de la biblioth�que C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0025.lib et de l'objet C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0025.exp
+    [4/5] UE4Editor-creativejam-0025.dll
+       Cr�ation de la biblioth�que C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0025.suppressed.lib et de l'objet C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-0025.suppressed.exp
+    [5/5] creativejamEditor.target
+  Total time in Parallel executor: 4,24 seconds
+  Total execution time: 6,10 seconds

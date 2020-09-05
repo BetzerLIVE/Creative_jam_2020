@@ -30,9 +30,9 @@ public:
 };
 
 
-class UInputComponent;
+//class UInputComponent;
 
-UCLASS(config=Game)
+UCLASS(/*config=Game*/)
 class AcreativejamCharacter : public ACharacter
 {
 	GENERATED_BODY()
