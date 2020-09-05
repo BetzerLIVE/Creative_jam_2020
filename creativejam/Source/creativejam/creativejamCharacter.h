@@ -57,6 +57,7 @@ public:
 
 protected:
 	virtual void BeginPlay();
+	virtual void Tick(float DeltaTime) override;
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -99,6 +100,8 @@ public:
 	float MaxHealth;
 
 	float DestructibleCheckDistance;
+
+	float DestructibleCheckFrequency;
 
 	void SetDestructibleCheckDistance(float CheckDistance);
 

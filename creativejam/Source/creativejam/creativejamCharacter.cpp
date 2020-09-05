@@ -46,7 +46,9 @@ AcreativejamCharacter::AcreativejamCharacter()
 
 	CurrentHealth = MaxHealth;
 
-	DestructibleCheckDistance = 200.f;
+	DestructibleCheckDistance = 2000.f;
+
+	DestructibleCheckFrequency = 0.f;
 
 }
 
@@ -55,6 +57,16 @@ void AcreativejamCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+}
+
+void AcreativejamCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (GetWorld()->TimeSince(DestructibleData.LastInteractionCheckTime) > DestructibleCheckFrequency)
+	{
+		PerformDestructibleCheck();
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -123,10 +135,12 @@ void AcreativejamCharacter::PerformDestructibleCheck()
 				if (DestructibleComponent != GetDestructible() && Distance <= DestructibleComponent->InteractionDistance)
 				{
 					FoundNewDestructible(DestructibleComponent);
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("trouve"));
 				}
 				else if (Distance > DestructibleComponent->InteractionDistance && GetDestructible())
 				{
 					CouldntFindDestructible();
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("rien trouve"));
 				}
 				return;
 			}
