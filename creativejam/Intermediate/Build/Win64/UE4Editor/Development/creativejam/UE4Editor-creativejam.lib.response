@@ -6,6 +6,7 @@
 /NAME:"UE4Editor-creativejam.dll"
 /IGNORE:4221
 /NODEFAULTLIB
+<<<<<<< HEAD
 "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejam.cpp.obj"
 "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamCharacter.cpp.obj"
@@ -21,4 +22,19 @@
 "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\DestructibleComponent.gen.cpp.obj"
 "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Default.rc2.res"
 /OUT:"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam.lib"
+=======
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejam.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamCharacter.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamGameMode.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamHUD.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamProjectile.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejam.init.gen.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamCharacter.gen.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamGameMode.gen.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamHUD.gen.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\creativejamProjectile.gen.cpp.obj"
+"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Default.rc2.res"
+/OUT:"C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam.lib"
+>>>>>>> develop
 /INCLUDE:IMPLEMENT_MODULE_creativejam
