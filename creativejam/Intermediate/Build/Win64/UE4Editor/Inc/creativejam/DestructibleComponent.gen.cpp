@@ -205,6 +205,10 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DestructibleLevel_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_DestructibleLevel;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentHealth;
@@ -254,6 +258,13 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		{ "ModuleRelativePath", "DestructibleComponent.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleLevel_MetaData[] = {
+		{ "Category", "Level" },
+		{ "ModuleRelativePath", "DestructibleComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleLevel = { "DestructibleLevel", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleComponent, DestructibleLevel), METADATA_PARAMS(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleLevel_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_CurrentHealth_MetaData[] = {
 		{ "Category", "Health" },
@@ -314,6 +325,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_InteractionDistance = { "InteractionDistance", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleComponent, InteractionDistance), METADATA_PARAMS(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_InteractionDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_InteractionDistance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDestructibleComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_CurrentHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_MaxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnAttack,
@@ -349,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDestructibleComponent, 857296218);
+	IMPLEMENT_CLASS(UDestructibleComponent, 2595458417);
 	template<> CREATIVEJAM_API UClass* StaticClass<UDestructibleComponent>()
 	{
 		return UDestructibleComponent::StaticClass();

@@ -108,6 +108,12 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float CurrentHealth;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
+	int Currentlevel;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
+	int MaxLevel;
+
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnDeath();
 

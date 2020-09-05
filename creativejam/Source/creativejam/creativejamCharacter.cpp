@@ -50,6 +50,9 @@ AcreativejamCharacter::AcreativejamCharacter()
 
 	DestructibleCheckFrequency = 0.f;
 
+	Currentlevel = 1;
+
+	MaxLevel = 10;
 }
 
 void AcreativejamCharacter::BeginPlay()

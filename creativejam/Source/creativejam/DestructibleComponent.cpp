@@ -22,6 +22,16 @@ UDestructibleComponent::UDestructibleComponent()
 	CurrentHealth = MaxHealth;
 }
 
+FText UDestructibleComponent::GetDestructibleNameText()
+{
+	return DestructibleNameText;
+}
+
+int UDestructibleComponent::GetDestructibleLevel()
+{
+	return CurrentHealth;
+}
+
 float UDestructibleComponent::GetRemainingHealth()
 {
 	return CurrentHealth;

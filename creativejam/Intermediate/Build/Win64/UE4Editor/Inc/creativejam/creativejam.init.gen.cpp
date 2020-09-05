@@ -29,8 +29,8 @@ void EmptyLinkFunctionForGeneratedCodecreativejam_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xAF1FB72D,
-				0xBF31BD56,
+				0x0C2E4E35,
+				0x1BCCC791,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

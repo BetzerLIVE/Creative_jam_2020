@@ -51,6 +51,9 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetRemainingHealth();
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
+	int DestructibleLevel;
+
 	void SetHealth(float p_damage);
 
 	void RefreshWidget();

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\creativejam.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3D425AED-D069-42DD-9037-8E11F2295E4C}</UniqueIdentifier>
+      <UniqueIdentifier>{93926AD0-BFA1-42F7-AA55-2A6FA49551D3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\creativejam.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D406B7CC-47FC-4292-9AC2-AD4BCBA8FAD0}</UniqueIdentifier>
+      <UniqueIdentifier>{27288E87-CEDF-4357-866D-2BA3AEE75685}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\creativejam">
-      <UniqueIdentifier>{FF4128F8-3EAF-481D-BA03-028669528F20}</UniqueIdentifier>
+      <UniqueIdentifier>{E675A124-922F-46CA-8108-971B36A1CBF7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\creativejam\creativejam.Build.cs">
       <Filter>Source\creativejam</Filter>
@@ -69,6 +69,12 @@
       <Filter>Source\creativejam</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\creativejam\DestructibleComponent.h">
+      <Filter>Source\creativejam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\creativejam\DestructibleWidget.cpp">
+      <Filter>Source\creativejam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\creativejam\DestructibleWidget.h">
       <Filter>Source\creativejam</Filter>
     </ClInclude>
   </ItemGroup>
