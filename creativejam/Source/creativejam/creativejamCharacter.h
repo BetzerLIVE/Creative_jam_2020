@@ -6,6 +6,30 @@
 #include "GameFramework/Character.h"
 #include "creativejamCharacter.generated.h"
 
+USTRUCT()
+struct FDestructibleData
+{
+	GENERATED_BODY()
+
+public:
+
+	FDestructibleData()
+	{
+		ViewedDestructibleComponent = nullptr;
+		LastInteractionCheckTime = 0.f;
+	}
+
+	//The current interactable component we're viewing, if there is one
+	UPROPERTY()
+		class UDestructibleComponent* ViewedDestructibleComponent;
+
+	//The time when we last checked for an interactable
+	UPROPERTY()
+		float LastInteractionCheckTime;
+
+};
+
+
 class UInputComponent;
 
 UCLASS(config=Game)
@@ -17,36 +41,19 @@ class AcreativejamCharacter : public ACharacter
 	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
 	class USkeletalMeshComponent* Mesh1P;
 
-	/** Gun mesh: 1st person view (seen only by self) */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USkeletalMeshComponent* FP_Gun;
-
-	/** Location on gun mesh where projectiles should spawn. */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USceneComponent* FP_MuzzleLocation;
-
-	/** Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun) */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USkeletalMeshComponent* VR_Gun;
-
-	/** Location on VR gun mesh where projectiles should spawn. */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USceneComponent* VR_MuzzleLocation;
-
 	/** First person camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FirstPersonCameraComponent;
 
-	/** Motion controller (right hand) */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	class UMotionControllerComponent* R_MotionController;
-
-	/** Motion controller (left hand) */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	class UMotionControllerComponent* L_MotionController;
-
 public:
 	AcreativejamCharacter();
+
+
+	//Information about the current state of the players interaction
+	UPROPERTY()
+	FDestructibleData DestructibleData;
+
+	FORCEINLINE class UDestructibleComponent* GetDestructible() const { return DestructibleData.ViewedDestructibleComponent; }
 
 protected:
 	virtual void BeginPlay();
@@ -60,33 +67,62 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-	/** Gun muzzle's offset from the characters location */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	FVector GunOffset;
-
-	/** Projectile class to spawn */
-	UPROPERTY(EditDefaultsOnly, Category=Projectile)
-	TSubclassOf<class AcreativejamProjectile> ProjectileClass;
-
 	/** Sound to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	class USoundBase* FireSound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= Melee)
+	class USoundBase* PunchSound;
 
 	/** AnimMontage to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	class UAnimMontage* FireAnimation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
+	class UAnimMontage* PunchAnimation;
 
-	/** Whether to use motion controller location for aiming. */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	uint32 bUsingMotionControllers : 1;
+	UPROPERTY(EditDefaultsOnly, Category = Melee)
+	float PunchAttackDamage;
+
+	/** Sound to play each time we fire */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
+	class USoundBase* KickSound;
+
+	/** AnimMontage to play each time we fire */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
+	class UAnimMontage* KickAnimation;
+
+	UPROPERTY(EditDefaultsOnly, Category = Melee)
+	float KickAttackDamage;
+
+	UPROPERTY()
+	float LastMeleeAttackTime;
+
+	UPROPERTY(EditDefaultsOnly, Category = Melee)
+	float MeleeAttackDistance;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
+	float MaxHealth;
+
+	float DestructibleCheckDistance;
+
+	void SetDestructibleCheckDistance(float CheckDistance);
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
+	float CurrentHealth;
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnDeath();
+
+	void PerformDestructibleCheck();
+
+	void CouldntFindDestructible();
+	void FoundNewDestructible(UDestructibleComponent* Destructible);
+
+	FTimerHandle TimerHandle;
 
 protected:
 	
 	/** Fires a projectile. */
 	void OnFire();
 
-	/** Resets HMD orientation and position in VR. */
-	void OnResetVR();
+	void OnPunch();
+
+	void OnKick();
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);
@@ -105,32 +141,11 @@ protected:
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
 	 */
 	void LookUpAtRate(float Rate);
-
-	struct TouchData
-	{
-		TouchData() { bIsPressed = false;Location=FVector::ZeroVector;}
-		bool bIsPressed;
-		ETouchIndex::Type FingerIndex;
-		FVector Location;
-		bool bMoved;
-	};
-	void BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location);
-	void EndTouch(const ETouchIndex::Type FingerIndex, const FVector Location);
-	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
-	TouchData	TouchItem;
 	
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 	// End of APawn interface
-
-	/* 
-	 * Configures input for touchscreen devices if there is a valid touch interface for doing so 
-	 *
-	 * @param	InputComponent	The input component pointer to bind controls to
-	 * @returns true if touch controls were enabled.
-	 */
-	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
 
 public:
 	/** Returns Mesh1P subobject **/

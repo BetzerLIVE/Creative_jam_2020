@@ -13,22 +13,144 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 // Cross Module References
+	CREATIVEJAM_API UScriptStruct* Z_Construct_UScriptStruct_FDestructibleData();
+	UPackage* Z_Construct_UPackage__Script_creativejam();
+	CREATIVEJAM_API UClass* Z_Construct_UClass_UDestructibleComponent_NoRegister();
 	CREATIVEJAM_API UClass* Z_Construct_UClass_AcreativejamCharacter_NoRegister();
 	CREATIVEJAM_API UClass* Z_Construct_UClass_AcreativejamCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	UPackage* Z_Construct_UPackage__Script_creativejam();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	CREATIVEJAM_API UClass* Z_Construct_UClass_AcreativejamProjectile_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
+class UScriptStruct* FDestructibleData::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern CREATIVEJAM_API uint32 Get_Z_Construct_UScriptStruct_FDestructibleData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FDestructibleData, Z_Construct_UPackage__Script_creativejam(), TEXT("DestructibleData"), sizeof(FDestructibleData), Get_Z_Construct_UScriptStruct_FDestructibleData_Hash());
+	}
+	return Singleton;
+}
+template<> CREATIVEJAM_API UScriptStruct* StaticStruct<FDestructibleData>()
+{
+	return FDestructibleData::StaticStruct();
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FDestructibleData(FDestructibleData::StaticStruct, TEXT("/Script/creativejam"), TEXT("DestructibleData"), false, nullptr, nullptr);
+static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
+{
+	FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData()
+	{
+		UScriptStruct::DeferCppStructOps(FName(TEXT("DestructibleData")),new UScriptStruct::TCppStructOps<FDestructibleData>);
+	}
+} ScriptStruct_creativejam_StaticRegisterNativesFDestructibleData;
+	struct Z_Construct_UScriptStruct_FDestructibleData_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LastInteractionCheckTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LastInteractionCheckTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ViewedDestructibleComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ViewedDestructibleComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDestructibleData_Statics::Struct_MetaDataParams[] = {
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FDestructibleData_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FDestructibleData>();
+	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_LastInteractionCheckTime_MetaData[] = {
+		{ "Comment", "//The time when we last checked for an interactable\n" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+		{ "ToolTip", "The time when we last checked for an interactable" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_LastInteractionCheckTime = { "LastInteractionCheckTime", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FDestructibleData, LastInteractionCheckTime), METADATA_PARAMS(Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_LastInteractionCheckTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_LastInteractionCheckTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_ViewedDestructibleComponent_MetaData[] = {
+		{ "Comment", "//The current interactable component we're viewing, if there is one\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+		{ "ToolTip", "The current interactable component we're viewing, if there is one" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_ViewedDestructibleComponent = { "ViewedDestructibleComponent", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FDestructibleData, ViewedDestructibleComponent), Z_Construct_UClass_UDestructibleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_ViewedDestructibleComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_ViewedDestructibleComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FDestructibleData_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_LastInteractionCheckTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDestructibleData_Statics::NewProp_ViewedDestructibleComponent,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FDestructibleData_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_creativejam,
+		nullptr,
+		&NewStructOps,
+		"DestructibleData",
+		sizeof(FDestructibleData),
+		alignof(FDestructibleData),
+		Z_Construct_UScriptStruct_FDestructibleData_Statics::PropPointers,
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDestructibleData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000005),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FDestructibleData_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDestructibleData_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FDestructibleData()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FDestructibleData_Hash();
+		UPackage* Outer = Z_Construct_UPackage__Script_creativejam();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("DestructibleData"), sizeof(FDestructibleData), Get_Z_Construct_UScriptStruct_FDestructibleData_Hash(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FDestructibleData_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FDestructibleData_Hash() { return 3627868142U; }
+	static FName NAME_AcreativejamCharacter_OnDeath = FName(TEXT("OnDeath"));
+	void AcreativejamCharacter::OnDeath()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AcreativejamCharacter_OnDeath),NULL);
+	}
 	void AcreativejamCharacter::StaticRegisterNativesAcreativejamCharacter()
 	{
+	}
+	struct Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AcreativejamCharacter, nullptr, "OnDeath", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AcreativejamCharacter_OnDeath()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AcreativejamCharacter_NoRegister()
 	{
@@ -37,30 +159,50 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 	struct Z_Construct_UClass_AcreativejamCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUsingMotionControllers_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHealth_MetaData[];
 #endif
-		static void NewProp_bUsingMotionControllers_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUsingMotionControllers;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentHealth;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireAnimation_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireAnimation;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeleeAttackDistance_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MeleeAttackDistance;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LastMeleeAttackTime_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LastMeleeAttackTime;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOffset_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickAttackDamage_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GunOffset;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_KickAttackDamage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickAnimation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_KickAnimation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_KickSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PunchAttackDamage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PunchAttackDamage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PunchAnimation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PunchAnimation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PunchSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PunchSound;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -70,33 +212,13 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DestructibleData_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_L_MotionController;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_R_MotionController_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_R_MotionController;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_DestructibleData;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VR_MuzzleLocation_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VR_MuzzleLocation;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VR_Gun_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VR_Gun;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_MuzzleLocation_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_MuzzleLocation;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_Gun_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_Gun;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[];
 #endif
@@ -109,6 +231,9 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_creativejam,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AcreativejamCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AcreativejamCharacter_OnDeath, "OnDeath" }, // 1928548592
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -117,54 +242,82 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bUsingMotionControllers_MetaData[] = {
-		{ "Category", "Gameplay" },
-		{ "Comment", "/** Whether to use motion controller location for aiming. */" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData[] = {
+		{ "Category", "Health" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Whether to use motion controller location for aiming." },
 	};
 #endif
-	void Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bUsingMotionControllers_SetBit(void* Obj)
-	{
-		((AcreativejamCharacter*)Obj)->bUsingMotionControllers = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bUsingMotionControllers = { "bUsingMotionControllers", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(uint8), sizeof(AcreativejamCharacter), &Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bUsingMotionControllers_SetBit, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bUsingMotionControllers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bUsingMotionControllers_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth = { "CurrentHealth", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, CurrentHealth), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireAnimation_MetaData[] = {
-		{ "Category", "Gameplay" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance_MetaData[] = {
+		{ "Category", "Melee" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance = { "MeleeAttackDistance", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MeleeAttackDistance), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime_MetaData[] = {
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime = { "LastMeleeAttackTime", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, LastMeleeAttackTime), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData[] = {
+		{ "Category", "Melee" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage = { "KickAttackDamage", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData[] = {
+		{ "Category", "Melee" },
 		{ "Comment", "/** AnimMontage to play each time we fire */" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 		{ "ToolTip", "AnimMontage to play each time we fire" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireAnimation = { "FireAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, FireAnimation), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireAnimation_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation = { "KickAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickAnimation), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireSound_MetaData[] = {
-		{ "Category", "Gameplay" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound_MetaData[] = {
+		{ "Category", "Melee" },
 		{ "Comment", "/** Sound to play each time we fire */" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 		{ "ToolTip", "Sound to play each time we fire" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireSound = { "FireSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireSound_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound = { "KickSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_ProjectileClass_MetaData[] = {
-		{ "Category", "Projectile" },
-		{ "Comment", "/** Projectile class to spawn */" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData[] = {
+		{ "Category", "Melee" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Projectile class to spawn" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, ProjectileClass), Z_Construct_UClass_AcreativejamProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_ProjectileClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_ProjectileClass_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage = { "PunchAttackDamage", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_GunOffset_MetaData[] = {
-		{ "Category", "Gameplay" },
-		{ "Comment", "/** Gun muzzle's offset from the characters location */" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData[] = {
+		{ "Category", "Melee" },
+		{ "Comment", "/** AnimMontage to play each time we fire */" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Gun muzzle's offset from the characters location" },
+		{ "ToolTip", "AnimMontage to play each time we fire" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_GunOffset = { "GunOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, GunOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_GunOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_GunOffset_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation = { "PunchAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchAnimation), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSound_MetaData[] = {
+		{ "Category", "Melee" },
+		{ "Comment", "/** Sound to play each time we fire */" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+		{ "ToolTip", "Sound to play each time we fire" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSound = { "PunchSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSound_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -184,27 +337,13 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_L_MotionController_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "creativejamCharacter" },
-		{ "Comment", "/** Motion controller (left hand) */" },
-		{ "EditInline", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleData_MetaData[] = {
+		{ "Comment", "//Information about the current state of the players interaction\n" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Motion controller (left hand)" },
+		{ "ToolTip", "Information about the current state of the players interaction" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_L_MotionController = { "L_MotionController", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, L_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_L_MotionController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_L_MotionController_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_R_MotionController_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "creativejamCharacter" },
-		{ "Comment", "/** Motion controller (right hand) */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Motion controller (right hand)" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_R_MotionController = { "R_MotionController", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, R_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_R_MotionController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_R_MotionController_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleData = { "DestructibleData", nullptr, (EPropertyFlags)0x0010008000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, DestructibleData), Z_Construct_UScriptStruct_FDestructibleData, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleData_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleData_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -217,46 +356,6 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FirstPersonCameraComponent = { "FirstPersonCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "Comment", "/** Location on VR gun mesh where projectiles should spawn. */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Location on VR gun mesh where projectiles should spawn." },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_MuzzleLocation = { "VR_MuzzleLocation", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, VR_MuzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_Gun_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "Comment", "/** Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun) */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun)" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_Gun = { "VR_Gun", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, VR_Gun), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_Gun_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_Gun_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "Comment", "/** Location on gun mesh where projectiles should spawn. */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Location on gun mesh where projectiles should spawn." },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_MuzzleLocation = { "FP_MuzzleLocation", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, FP_MuzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_Gun_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "Comment", "/** Gun mesh: 1st person view (seen only by self) */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "Gun mesh: 1st person view (seen only by self)" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_Gun = { "FP_Gun", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, FP_Gun), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_Gun_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_Gun_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P_MetaData[] = {
 		{ "Category", "Mesh" },
 		{ "Comment", "/** Pawn mesh: 1st person view (arms; seen only by self) */" },
@@ -267,20 +366,20 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P = { "Mesh1P", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AcreativejamCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bUsingMotionControllers,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireAnimation,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FireSound,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_ProjectileClass,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_GunOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_BaseTurnRate,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_L_MotionController,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_R_MotionController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleData,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FirstPersonCameraComponent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_MuzzleLocation,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_VR_Gun,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_MuzzleLocation,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_FP_Gun,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AcreativejamCharacter_Statics::StaticCppClassTypeInfo = {
@@ -291,11 +390,11 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AcreativejamCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -310,7 +409,7 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AcreativejamCharacter, 80257981);
+	IMPLEMENT_CLASS(AcreativejamCharacter, 1303344326);
 	template<> CREATIVEJAM_API UClass* StaticClass<AcreativejamCharacter>()
 	{
 		return AcreativejamCharacter::StaticClass();

@@ -13,10 +13,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CREATIVEJAM_creativejamCharacter_generated_h
 
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_SPARSE_DATA
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_RPC_WRAPPERS
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define creativejam_Source_creativejam_creativejamCharacter_h_12_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDestructibleData_Statics; \
+	CREATIVEJAM_API static class UScriptStruct* StaticStruct();
+
+
+template<> CREATIVEJAM_API UScriptStruct* StaticStruct<struct FDestructibleData>();
+
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_SPARSE_DATA
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS_NO_PURE_DECLS
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_EVENT_PARMS
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_CALLBACK_WRAPPERS
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAcreativejamCharacter(); \
 	friend struct Z_Construct_UClass_AcreativejamCharacter_Statics; \
@@ -25,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AcreativejamCharacter)
 
 
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_INCLASS \
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_INCLASS \
 private: \
 	static void StaticRegisterNativesAcreativejamCharacter(); \
 	friend struct Z_Construct_UClass_AcreativejamCharacter_Statics; \
@@ -34,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AcreativejamCharacter)
 
 
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AcreativejamCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AcreativejamCharacter) \
@@ -47,7 +56,7 @@ private: \
 public:
 
 
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AcreativejamCharacter(AcreativejamCharacter&&); \
@@ -58,38 +67,37 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AcreativejamCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AcreativejamCharacter)
 
 
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(AcreativejamCharacter, Mesh1P); } \
-	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AcreativejamCharacter, FP_Gun); } \
-	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(AcreativejamCharacter, FP_MuzzleLocation); } \
-	FORCEINLINE static uint32 __PPO__VR_Gun() { return STRUCT_OFFSET(AcreativejamCharacter, VR_Gun); } \
-	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(AcreativejamCharacter, VR_MuzzleLocation); } \
-	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(AcreativejamCharacter, FirstPersonCameraComponent); } \
-	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(AcreativejamCharacter, R_MotionController); } \
-	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AcreativejamCharacter, L_MotionController); }
+	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(AcreativejamCharacter, FirstPersonCameraComponent); }
 
 
-#define creativejam_Source_creativejam_creativejamCharacter_h_11_PROLOG
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_GENERATED_BODY_LEGACY \
+#define creativejam_Source_creativejam_creativejamCharacter_h_35_PROLOG \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_EVENT_PARMS
+
+
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_SPARSE_DATA \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_RPC_WRAPPERS \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_INCLASS \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_STANDARD_CONSTRUCTORS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_PRIVATE_PROPERTY_OFFSET \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_SPARSE_DATA \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_CALLBACK_WRAPPERS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_INCLASS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define creativejam_Source_creativejam_creativejamCharacter_h_14_GENERATED_BODY \
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_SPARSE_DATA \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	creativejam_Source_creativejam_creativejamCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_PRIVATE_PROPERTY_OFFSET \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_SPARSE_DATA \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_CALLBACK_WRAPPERS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_INCLASS_NO_PURE_DECLS \
+	creativejam_Source_creativejam_creativejamCharacter_h_38_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
