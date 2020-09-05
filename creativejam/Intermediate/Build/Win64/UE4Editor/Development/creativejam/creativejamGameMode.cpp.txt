@@ -1,0 +1,20 @@
+C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h
+C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Source\creativejam\creativejamGameMode.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamGameMode.generated.h
+C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Source\creativejam\creativejamHUD.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamHUD.generated.h
+C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Source\creativejam\creativejamCharacter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\natha\Desktop\Workspace\GAMEJAM_2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamCharacter.generated.h
