@@ -125,6 +125,20 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		*(float*)Z_Param__Result=P_THIS->GetRemainingHealth();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UDestructibleComponent::execGetDestructibleLevel)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetDestructibleLevel();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UDestructibleComponent::execGetDestructibleNameText)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FText*)Z_Param__Result=P_THIS->GetDestructibleNameText();
+		P_NATIVE_END;
+	}
 	static FName NAME_UDestructibleComponent_OnDeath = FName(TEXT("OnDeath"));
 	void UDestructibleComponent::OnDeath()
 	{
@@ -134,9 +148,75 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 	{
 		UClass* Class = UDestructibleComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetDestructibleLevel", &UDestructibleComponent::execGetDestructibleLevel },
+			{ "GetDestructibleNameText", &UDestructibleComponent::execGetDestructibleNameText },
 			{ "GetRemainingHealth", &UDestructibleComponent::execGetRemainingHealth },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics
+	{
+		struct DestructibleComponent_eventGetDestructibleLevel_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(DestructibleComponent_eventGetDestructibleLevel_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "DestructibleComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDestructibleComponent, nullptr, "GetDestructibleLevel", nullptr, nullptr, sizeof(DestructibleComponent_eventGetDestructibleLevel_Parms), Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics
+	{
+		struct DestructibleComponent_eventGetDestructibleNameText_Parms
+		{
+			FText ReturnValue;
+		};
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(DestructibleComponent_eventGetDestructibleNameText_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "DestructibleComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDestructibleComponent, nullptr, "GetDestructibleNameText", nullptr, nullptr, sizeof(DestructibleComponent_eventGetDestructibleNameText_Parms), Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics
 	{
@@ -245,6 +325,8 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_creativejam,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UDestructibleComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UDestructibleComponent_GetDestructibleLevel, "GetDestructibleLevel" }, // 2261481729
+		{ &Z_Construct_UFunction_UDestructibleComponent_GetDestructibleNameText, "GetDestructibleNameText" }, // 1680699938
 		{ &Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth, "GetRemainingHealth" }, // 1460788254
 		{ &Z_Construct_UFunction_UDestructibleComponent_OnDeath, "OnDeath" }, // 2061673732
 	};
@@ -361,7 +443,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDestructibleComponent, 2595458417);
+	IMPLEMENT_CLASS(UDestructibleComponent, 3025843202);
 	template<> CREATIVEJAM_API UClass* StaticClass<UDestructibleComponent>()
 	{
 		return UDestructibleComponent::StaticClass();

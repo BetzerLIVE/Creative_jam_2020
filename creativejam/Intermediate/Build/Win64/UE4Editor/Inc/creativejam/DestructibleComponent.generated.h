@@ -56,12 +56,16 @@ static inline void FOnBeginFocus_DelegateWrapper(const FMulticastScriptDelegate&
 #define creativejam_Source_creativejam_DestructibleComponent_h_19_SPARSE_DATA
 #define creativejam_Source_creativejam_DestructibleComponent_h_19_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetRemainingHealth);
+	DECLARE_FUNCTION(execGetRemainingHealth); \
+	DECLARE_FUNCTION(execGetDestructibleLevel); \
+	DECLARE_FUNCTION(execGetDestructibleNameText);
 
 
 #define creativejam_Source_creativejam_DestructibleComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetRemainingHealth);
+	DECLARE_FUNCTION(execGetRemainingHealth); \
+	DECLARE_FUNCTION(execGetDestructibleLevel); \
+	DECLARE_FUNCTION(execGetDestructibleNameText);
 
 
 #define creativejam_Source_creativejam_DestructibleComponent_h_19_EVENT_PARMS

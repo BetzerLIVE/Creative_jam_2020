@@ -30,6 +30,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Destructible")
 	FText DestructibleNameText;
 
+	UFUNCTION()
+	FText GetDestructibleNameText();
+
+	UFUNCTION()
+	int GetDestructibleLevel();
+
 	//[local + server] Called when the player presses the interact key whilst focusing on this interactable actor
 	UPROPERTY(EditDefaultsOnly, BlueprintAssignable)
 	FOnBeginFocus OnBeginFocus;

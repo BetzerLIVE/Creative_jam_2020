@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "DestructibleWidget.h"
 #include "DestructibleComponent.h"
 
 UDestructibleComponent::UDestructibleComponent()
@@ -39,7 +39,13 @@ float UDestructibleComponent::GetRemainingHealth()
 
 void UDestructibleComponent::RefreshWidget()
 {
-
+	if (!bHiddenInGame)
+	{
+		if (UDestructibleWidget* destrucctiblewidget = Cast<UDestructibleWidget>(GetUserWidgetObject()))
+		{
+			destrucctiblewidget->UpdateDestructibleWidget(this);
+		}
+	}
 }
 
 void UDestructibleComponent::BeginFocus(class AcreativejamCharacter* Character)
