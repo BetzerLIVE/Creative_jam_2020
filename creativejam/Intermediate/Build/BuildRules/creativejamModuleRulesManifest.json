@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Documents\\Game Jam A20\\Creative_jam_2020\\creativejam\\Source\\creativejam\\creativejam.Build.cs",
-		"E:\\Documents\\Game Jam A20\\Creative_jam_2020\\creativejam\\Source\\creativejam.Target.cs",
-		"E:\\Documents\\Game Jam A20\\Creative_jam_2020\\creativejam\\Source\\creativejamEditor.Target.cs"
+		"F:\\PERFORCE\\CreativeJam2020\\Creative_jam_2020\\creativejam\\Source\\creativejam\\creativejam.Build.cs",
+		"F:\\PERFORCE\\CreativeJam2020\\Creative_jam_2020\\creativejam\\Source\\creativejam.Target.cs",
+		"F:\\PERFORCE\\CreativeJam2020\\Creative_jam_2020\\creativejam\\Source\\creativejamEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }
