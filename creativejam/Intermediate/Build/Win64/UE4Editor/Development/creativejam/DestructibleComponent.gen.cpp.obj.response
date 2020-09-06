@@ -230,8 +230,8 @@
 /I Runtime\MovieSceneTracks\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
-/I "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam"
-/I "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Source"
+/I "E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam"
+/I "E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Source"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ThirdParty\PhysX3\PxShared\include
@@ -259,16 +259,16 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\DestructibleComponent.gen.cpp"
-/FI"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h"
-/Fo"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\DestructibleComponent.gen.cpp.obj"
+/I "E:\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "E:\Windows Kits\10\include\10.0.18362.0\shared"
+/I "E:\Windows Kits\10\include\10.0.18362.0\um"
+/I "E:\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\DestructibleComponent.gen.cpp"
+/FI"E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h"
+/Fo"E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\DestructibleComponent.gen.cpp.obj"
 /TP
 /GR-
 /W4
