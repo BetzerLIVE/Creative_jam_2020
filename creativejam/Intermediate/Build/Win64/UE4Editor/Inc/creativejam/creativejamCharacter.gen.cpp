@@ -143,6 +143,11 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AcreativejamCharacter_OnDeath),NULL);
 	}
+	static FName NAME_AcreativejamCharacter_OnLevelUp = FName(TEXT("OnLevelUp"));
+	void AcreativejamCharacter::OnLevelUp()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AcreativejamCharacter_OnLevelUp),NULL);
+	}
 	void AcreativejamCharacter::StaticRegisterNativesAcreativejamCharacter()
 	{
 		UClass* Class = AcreativejamCharacter::StaticClass();
@@ -171,6 +176,28 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AcreativejamCharacter, nullptr, "OnLevelUp", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -253,6 +280,14 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxLevel_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_MaxLevel;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PastExp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_PastExp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentExp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CurrentExp;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Currentlevel_MetaData[];
 #endif
@@ -339,6 +374,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AcreativejamCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AcreativejamCharacter_OnDeath, "OnDeath" }, // 1928548592
+		{ &Z_Construct_UFunction_AcreativejamCharacter_OnLevelUp, "OnLevelUp" }, // 631481799
 		{ &Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed, "SetKickSpeed" }, // 3923342220
 		{ &Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed, "SetPunchSpeed" }, // 1636922268
 	};
@@ -358,6 +394,20 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel = { "MaxLevel", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MaxLevel), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PastExp_MetaData[] = {
+		{ "Category", "Leveling" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PastExp = { "PastExp", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PastExp), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PastExp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PastExp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentExp_MetaData[] = {
+		{ "Category", "Leveling" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentExp = { "CurrentExp", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, CurrentExp), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentExp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentExp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel_MetaData[] = {
 		{ "Category", "Leveling" },
@@ -511,6 +561,8 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P = { "Mesh1P", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AcreativejamCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PastExp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentExp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth,
@@ -558,7 +610,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AcreativejamCharacter, 4211681753);
+	IMPLEMENT_CLASS(AcreativejamCharacter, 2352123328);
 	template<> CREATIVEJAM_API UClass* StaticClass<AcreativejamCharacter>()
 	{
 		return AcreativejamCharacter::StaticClass();

@@ -127,7 +127,22 @@ public:
 	int Currentlevel;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
+	int CurrentExp;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
+	int PastExp;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
 	int MaxLevel;
+
+	int  ExpRequiredPerLvl[10];
+
+	void AddExp(int exp);
+
+	bool IslevelingUp();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnLevelUp();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnDeath();

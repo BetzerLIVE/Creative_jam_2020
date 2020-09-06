@@ -49,7 +49,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float MaxHealth;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health")
 	float CurrentHealth;
 
 	UFUNCTION(BlueprintCallable)
@@ -57,6 +57,9 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Destructible")
 	int DestructibleLevel;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Destructible")
+	int DestructibleExp;
 
 	UFUNCTION(BlueprintCallable)
 	void SetHealth(float p_health);
@@ -69,7 +72,4 @@ public:
 	void Punch(class AcreativejamCharacter* Character);
 
 	void Kick(class AcreativejamCharacter* Character);
-
-	UFUNCTION(BlueprintImplementableEvent)
-	void OnDeath();
 };

@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
-#include "DestructibleWidget.h"
 #include "DestructibleComponent.h"
+#include "DestructibleWidget.h"
 
 UDestructibleComponent::UDestructibleComponent()
 {
@@ -10,7 +9,7 @@ UDestructibleComponent::UDestructibleComponent()
 	InteractionDistance = 1000.f;
 	DestructibleNameText = FText::FromString("Building");
 	DestructibleLevel = 0;
-
+	DestructibleExp = 0;
 	Space = EWidgetSpace::Screen;
 	DrawSize = FIntPoint(400, 100);
 	bDrawAtDesiredSize = true;
