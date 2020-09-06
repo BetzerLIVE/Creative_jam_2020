@@ -201,22 +201,6 @@ void AcreativejamCharacter::FoundNewDestructible(UDestructibleComponent* Destruc
 void AcreativejamCharacter::OnFire()
 {
 
-	// try and play the sound if specified
-	if (PunchSound != NULL)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, PunchSound, GetActorLocation());
-	}
-
-	// try and play a firing animation if specified
-	if (PunchAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
-		{
-			AnimInstance->Montage_Play(PunchAnimation, 1.f);
-		}
-	}
 }
 
 void AcreativejamCharacter::OnPunch()
@@ -232,6 +216,7 @@ void AcreativejamCharacter::OnPunch()
 	}
 
 	LastPunchAttackTime = GetWorld()->GetTimeSeconds();
+	Punch = false;
 }
 
 void AcreativejamCharacter::OnKick()
@@ -247,6 +232,7 @@ void AcreativejamCharacter::OnKick()
 	}
 
 	LastKickAttackTime = GetWorld()->GetTimeSeconds();
+	Kick = false;
 }
 
 void AcreativejamCharacter::MoveForward(float Value)

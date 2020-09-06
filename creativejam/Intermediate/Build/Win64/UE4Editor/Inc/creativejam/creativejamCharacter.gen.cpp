@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodecreativejamCharacter() {}
 	CREATIVEJAM_API UClass* Z_Construct_UClass_AcreativejamCharacter_NoRegister();
 	CREATIVEJAM_API UClass* Z_Construct_UClass_AcreativejamCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimSequence_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
@@ -329,17 +329,27 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_KickAttackDamage;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickAnimation_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_KickAnimation;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_KickSound;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Kick_MetaData[];
+#endif
+		static void NewProp_Kick_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Kick;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Punch_MetaData[];
+#endif
+		static void NewProp_Punch_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Punch;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PunchAttackDamage_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PunchAttackDamage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickAnimation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_KickAnimation;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PunchAnimation_MetaData[];
 #endif
@@ -481,15 +491,6 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage = { "KickAttackDamage", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData[] = {
-		{ "Category", "Melee" },
-		{ "Comment", "/** AnimMontage to play each time we fire */" },
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-		{ "ToolTip", "AnimMontage to play each time we fire" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation = { "KickAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickAnimation), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound_MetaData[] = {
 		{ "Category", "Melee" },
 		{ "Comment", "/** Sound to play each time we fire */" },
@@ -499,12 +500,43 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound = { "KickSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Kick_MetaData[] = {
+		{ "Category", "Melee" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Kick_SetBit(void* Obj)
+	{
+		((AcreativejamCharacter*)Obj)->Kick = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Kick = { "Kick", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AcreativejamCharacter), &Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Kick_SetBit, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Kick_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Kick_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Punch_MetaData[] = {
+		{ "Category", "Melee" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Punch_SetBit(void* Obj)
+	{
+		((AcreativejamCharacter*)Obj)->Punch = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Punch = { "Punch", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AcreativejamCharacter), &Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Punch_SetBit, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Punch_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Punch_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData[] = {
 		{ "Category", "Melee" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage = { "PunchAttackDamage", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData[] = {
+		{ "Category", "Melee" },
+		{ "Comment", "/** AnimMontage to play each time we fire */" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+		{ "ToolTip", "AnimMontage to play each time we fire" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation = { "KickAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickAnimation), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData[] = {
 		{ "Category", "Melee" },
@@ -513,7 +545,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		{ "ToolTip", "AnimMontage to play each time we fire" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation = { "PunchAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchAnimation), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation = { "PunchAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchAnimation), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSound_MetaData[] = {
 		{ "Category", "Melee" },
@@ -584,9 +616,11 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastPunchAttackTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Kick,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Punch,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_BaseLookUpRate,
@@ -622,7 +656,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AcreativejamCharacter, 577945711);
+	IMPLEMENT_CLASS(AcreativejamCharacter, 3528517681);
 	template<> CREATIVEJAM_API UClass* StaticClass<AcreativejamCharacter>()
 	{
 		return AcreativejamCharacter::StaticClass();

@@ -74,18 +74,24 @@ public:
 
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
-	class UAnimMontage* PunchAnimation;
+	class UAnimSequence* PunchAnimation;
+
+	/** AnimMontage to play each time we fire */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
+	class UAnimSequence* KickAnimation;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
 	float PunchAttackDamage;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
+	bool Punch;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
+	bool Kick;
+
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
 	class USoundBase* KickSound;
-
-	/** AnimMontage to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
-	class UAnimMontage* KickAnimation;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
 	float KickAttackDamage;
