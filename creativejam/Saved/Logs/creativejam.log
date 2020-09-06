@@ -702,3 +702,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.06-07.58.54:915][435]LogEditorActor: Deleted 1 Actors (0.034 secs)
 [2020.09.06-07.58.58:696][855]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
 [2020.09.06-08.01.51:563][279]LogLiveCoding: Display:    Création de la bibliothèque C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Binaries\Win64\UE4Editor-creativejam.exe.lib et de l'objet C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Binaries\Win64\UE4Editor-creativejam.exe.exp
+[2020.09.06-08.05.40:497][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.09.06-08.05.40:564][525]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonExampleMap_Auto1116D977E4A59C5D87209479AEF209DC9.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.09.06-08.05.40:569][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.089
+[2020.09.06-08.05.40:569][525]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
