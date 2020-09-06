@@ -122,22 +122,6 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FDestructibleData_Hash() { return 3627868142U; }
-	DEFINE_FUNCTION(AcreativejamCharacter::execSetKickSpeed)
-	{
-		P_GET_PROPERTY(FFloatProperty,Z_Param_speed);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->SetKickSpeed(Z_Param_speed);
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(AcreativejamCharacter::execSetPunchSpeed)
-	{
-		P_GET_PROPERTY(FFloatProperty,Z_Param_speed);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->SetPunchSpeed(Z_Param_speed);
-		P_NATIVE_END;
-	}
 	static FName NAME_AcreativejamCharacter_OnDeath = FName(TEXT("OnDeath"));
 	void AcreativejamCharacter::OnDeath()
 	{
@@ -145,12 +129,6 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	}
 	void AcreativejamCharacter::StaticRegisterNativesAcreativejamCharacter()
 	{
-		UClass* Class = AcreativejamCharacter::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "SetKickSpeed", &AcreativejamCharacter::execSetKickSpeed },
-			{ "SetPunchSpeed", &AcreativejamCharacter::execSetPunchSpeed },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics
 	{
@@ -171,70 +149,6 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AcreativejamCharacter_OnDeath_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics
-	{
-		struct creativejamCharacter_eventSetKickSpeed_Parms
-		{
-			float speed;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speed;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::NewProp_speed = { "speed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(creativejamCharacter_eventSetKickSpeed_Parms, speed), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::NewProp_speed,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AcreativejamCharacter, nullptr, "SetKickSpeed", nullptr, nullptr, sizeof(creativejamCharacter_eventSetKickSpeed_Parms), Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics
-	{
-		struct creativejamCharacter_eventSetPunchSpeed_Parms
-		{
-			float speed;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speed;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::NewProp_speed = { "speed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(creativejamCharacter_eventSetPunchSpeed_Parms, speed), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::NewProp_speed,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AcreativejamCharacter, nullptr, "SetPunchSpeed", nullptr, nullptr, sizeof(creativejamCharacter_eventSetPunchSpeed_Parms), Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -270,21 +184,9 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MeleeAttackDistance;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickSpeed_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LastMeleeAttackTime_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_KickSpeed;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LastKickAttackTime_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LastKickAttackTime;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PunchSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PunchSpeed;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LastPunchAttackTime_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LastPunchAttackTime;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LastMeleeAttackTime;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KickAttackDamage_MetaData[];
 #endif
@@ -339,8 +241,6 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AcreativejamCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AcreativejamCharacter_OnDeath, "OnDeath" }, // 1928548592
-		{ &Z_Construct_UFunction_AcreativejamCharacter_SetKickSpeed, "SetKickSpeed" }, // 3923342220
-		{ &Z_Construct_UFunction_AcreativejamCharacter_SetPunchSpeed, "SetPunchSpeed" }, // 1636922268
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::Class_MetaDataParams[] = {
@@ -353,32 +253,32 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData[] = {
-		{ "Category", "Leveling" },
+		{ "Category", "Level" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel = { "MaxLevel", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MaxLevel), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel = { "MaxLevel", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MaxLevel), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel_MetaData[] = {
-		{ "Category", "Leveling" },
+		{ "Category", "Level" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel = { "Currentlevel", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, Currentlevel), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel = { "Currentlevel", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, Currentlevel), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Currentlevel_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData[] = {
 		{ "Category", "Health" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth = { "CurrentHealth", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, CurrentHealth), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth = { "CurrentHealth", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, CurrentHealth), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData[] = {
 		{ "Category", "Health" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance_MetaData[] = {
 		{ "Category", "Melee" },
@@ -387,38 +287,18 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance = { "MeleeAttackDistance", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, MeleeAttackDistance), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSpeed_MetaData[] = {
-		{ "Category", "Melee" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime_MetaData[] = {
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSpeed = { "KickSpeed", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickSpeed), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastKickAttackTime_MetaData[] = {
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastKickAttackTime = { "LastKickAttackTime", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, LastKickAttackTime), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastKickAttackTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastKickAttackTime_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSpeed_MetaData[] = {
-		{ "Category", "Melee" },
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSpeed = { "PunchSpeed", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchSpeed), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastPunchAttackTime_MetaData[] = {
-		{ "ModuleRelativePath", "creativejamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastPunchAttackTime = { "LastPunchAttackTime", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, LastPunchAttackTime), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastPunchAttackTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastPunchAttackTime_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime = { "LastMeleeAttackTime", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, LastMeleeAttackTime), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData[] = {
 		{ "Category", "Melee" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage = { "KickAttackDamage", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage = { "KickAttackDamage", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, KickAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation_MetaData[] = {
 		{ "Category", "Melee" },
@@ -443,7 +323,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage = { "PunchAttackDamage", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage = { "PunchAttackDamage", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, PunchAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAttackDamage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchAnimation_MetaData[] = {
 		{ "Category", "Melee" },
@@ -515,10 +395,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MeleeAttackDistance,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastKickAttackTime,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PunchSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastPunchAttackTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_LastMeleeAttackTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAttackDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_KickSound,
@@ -558,7 +435,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AcreativejamCharacter, 4211681753);
+	IMPLEMENT_CLASS(AcreativejamCharacter, 3633849286);
 	template<> CREATIVEJAM_API UClass* StaticClass<AcreativejamCharacter>()
 	{
 		return AcreativejamCharacter::StaticClass();

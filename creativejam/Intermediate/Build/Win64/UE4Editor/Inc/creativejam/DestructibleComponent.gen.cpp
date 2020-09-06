@@ -13,19 +13,18 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 // Cross Module References
-	CREATIVEJAM_API UFunction* Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature();
+	CREATIVEJAM_API UFunction* Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_creativejam();
 	CREATIVEJAM_API UClass* Z_Construct_UClass_AcreativejamCharacter_NoRegister();
-	CREATIVEJAM_API UFunction* Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature();
 	CREATIVEJAM_API UFunction* Z_Construct_UDelegateFunction_creativejam_OnEndFocus__DelegateSignature();
 	CREATIVEJAM_API UFunction* Z_Construct_UDelegateFunction_creativejam_OnBeginFocus__DelegateSignature();
 	CREATIVEJAM_API UClass* Z_Construct_UClass_UDestructibleComponent_NoRegister();
 	CREATIVEJAM_API UClass* Z_Construct_UClass_UDestructibleComponent();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent();
 // End Cross Module References
-	struct Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics
+	struct Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics
 	{
-		struct _Script_creativejam_eventOnKick_Parms
+		struct _Script_creativejam_eventOnAttack_Parms
 		{
 			AcreativejamCharacter* Character;
 		};
@@ -36,54 +35,22 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::NewProp_Character = { "Character", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_creativejam_eventOnKick_Parms, Character), Z_Construct_UClass_AcreativejamCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::NewProp_Character,
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::NewProp_Character = { "Character", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_creativejam_eventOnAttack_Parms, Character), Z_Construct_UClass_AcreativejamCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::NewProp_Character,
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "DestructibleComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_creativejam, nullptr, "OnKick__DelegateSignature", nullptr, nullptr, sizeof(_Script_creativejam_eventOnKick_Parms), Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_creativejam, nullptr, "OnAttack__DelegateSignature", nullptr, nullptr, sizeof(_Script_creativejam_eventOnAttack_Parms), Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics
-	{
-		struct _Script_creativejam_eventOnPunch_Parms
-		{
-			AcreativejamCharacter* Character;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Character;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::NewProp_Character = { "Character", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_creativejam_eventOnPunch_Parms, Character), Z_Construct_UClass_AcreativejamCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::NewProp_Character,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "DestructibleComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_creativejam, nullptr, "OnPunch__DelegateSignature", nullptr, nullptr, sizeof(_Script_creativejam_eventOnPunch_Parms), Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -151,14 +118,6 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		}
 		return ReturnFunction;
 	}
-	DEFINE_FUNCTION(UDestructibleComponent::execSetHealth)
-	{
-		P_GET_PROPERTY(FFloatProperty,Z_Param_p_health);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->SetHealth(Z_Param_p_health);
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(UDestructibleComponent::execGetRemainingHealth)
 	{
 		P_FINISH;
@@ -176,7 +135,6 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		UClass* Class = UDestructibleComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetRemainingHealth", &UDestructibleComponent::execGetRemainingHealth },
-			{ "SetHealth", &UDestructibleComponent::execSetHealth },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -199,10 +157,11 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Health" },
 		{ "ModuleRelativePath", "DestructibleComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDestructibleComponent, nullptr, "GetRemainingHealth", nullptr, nullptr, sizeof(DestructibleComponent_eventGetRemainingHealth_Parms), Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDestructibleComponent, nullptr, "GetRemainingHealth", nullptr, nullptr, sizeof(DestructibleComponent_eventGetRemainingHealth_Parms), Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -234,38 +193,6 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics
-	{
-		struct DestructibleComponent_eventSetHealth_Parms
-		{
-			float p_health;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_p_health;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::NewProp_p_health = { "p_health", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(DestructibleComponent_eventSetHealth_Parms, p_health), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::NewProp_p_health,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "DestructibleComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDestructibleComponent, nullptr, "SetHealth", nullptr, nullptr, sizeof(DestructibleComponent_eventSetHealth_Parms), Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UDestructibleComponent_SetHealth()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UDestructibleComponent_SetHealth_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_UDestructibleComponent_NoRegister()
 	{
 		return UDestructibleComponent::StaticClass();
@@ -290,13 +217,9 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnKick_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnAttack_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnKick;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnPunch_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnPunch;
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAttack;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnEndFocus_MetaData[];
 #endif
@@ -322,9 +245,8 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_creativejam,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UDestructibleComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth, "GetRemainingHealth" }, // 1983045879
+		{ &Z_Construct_UFunction_UDestructibleComponent_GetRemainingHealth, "GetRemainingHealth" }, // 1460788254
 		{ &Z_Construct_UFunction_UDestructibleComponent_OnDeath, "OnDeath" }, // 2061673732
-		{ &Z_Construct_UFunction_UDestructibleComponent_SetHealth, "SetHealth" }, // 4084777453
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::Class_MetaDataParams[] = {
@@ -338,7 +260,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleLevel_MetaData[] = {
-		{ "Category", "Destructible" },
+		{ "Category", "Level" },
 		{ "ModuleRelativePath", "DestructibleComponent.h" },
 	};
 #endif
@@ -358,21 +280,14 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleComponent, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_MaxHealth_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnKick_MetaData[] = {
-		{ "Category", "DestructibleComponent" },
-		{ "ModuleRelativePath", "DestructibleComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnKick = { "OnKick", nullptr, (EPropertyFlags)0x0010000010090001, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleComponent, OnKick), Z_Construct_UDelegateFunction_creativejam_OnKick__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnKick_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnKick_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnPunch_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnAttack_MetaData[] = {
 		{ "Category", "DestructibleComponent" },
 		{ "Comment", "//[local + server] Called when the player has interacted with the item for the required amount of time\n" },
 		{ "ModuleRelativePath", "DestructibleComponent.h" },
 		{ "ToolTip", "[local + server] Called when the player has interacted with the item for the required amount of time" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnPunch = { "OnPunch", nullptr, (EPropertyFlags)0x0010000010090001, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleComponent, OnPunch), Z_Construct_UDelegateFunction_creativejam_OnPunch__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnPunch_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnPunch_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnAttack = { "OnAttack", nullptr, (EPropertyFlags)0x0010000010090001, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleComponent, OnAttack), Z_Construct_UDelegateFunction_creativejam_OnAttack__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnAttack_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnAttack_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnEndFocus_MetaData[] = {
 		{ "Category", "DestructibleComponent" },
@@ -413,8 +328,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_CurrentHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_MaxHealth,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnKick,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnPunch,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnAttack,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnEndFocus,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_OnBeginFocus,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleComponent_Statics::NewProp_DestructibleNameText,
@@ -447,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDestructibleComponent, 3181697884);
+	IMPLEMENT_CLASS(UDestructibleComponent, 2595458417);
 	template<> CREATIVEJAM_API UClass* StaticClass<UDestructibleComponent>()
 	{
 		return UDestructibleComponent::StaticClass();

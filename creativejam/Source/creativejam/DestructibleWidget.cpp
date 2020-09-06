@@ -5,6 +5,6 @@
 
 void UDestructibleWidget::UpdateDestructibleWidget(class UDestructibleComponent* p_DestructibleComponent)
 {
-	OwningDestructibleComponent = p_DestructibleComponent;
+	OwningDestrucctibleComponent = p_DestructibleComponent;
 	OnUpdateDestructibleWidget();
 }

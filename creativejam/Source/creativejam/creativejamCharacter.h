@@ -76,7 +76,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
 	class UAnimMontage* PunchAnimation;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
+	UPROPERTY(EditDefaultsOnly, Category = Melee)
 	float PunchAttackDamage;
 
 	/** Sound to play each time we fire */
@@ -87,31 +87,16 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
 	class UAnimMontage* KickAnimation;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
+	UPROPERTY(EditDefaultsOnly, Category = Melee)
 	float KickAttackDamage;
 
 	UPROPERTY()
-	float LastPunchAttackTime;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
-	float PunchSpeed;
-
-	UFUNCTION(BlueprintCallable)
-	void SetPunchSpeed(float speed);
-
-	UPROPERTY()
-	float LastKickAttackTime;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
-	float KickSpeed;
-
-	UFUNCTION(BlueprintCallable)
-	void SetKickSpeed(float speed);
+	float LastMeleeAttackTime;
 
 	UPROPERTY(EditDefaultsOnly, Category = Melee)
 	float MeleeAttackDistance;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float MaxHealth;
 
 	float DestructibleCheckDistance;
@@ -120,13 +105,13 @@ public:
 
 	void SetDestructibleCheckDistance(float CheckDistance);
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float CurrentHealth;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
 	int Currentlevel;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
 	int MaxLevel;
 
 	UFUNCTION(BlueprintImplementableEvent)

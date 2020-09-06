@@ -1,5 +1,6 @@
 C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h
-C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Source\creativejam\DestructibleWidget.h
+C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Source\creativejam\DestructibleComponent.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 E:\EpicGames\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 E:\EpicGames\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -117,8 +118,6 @@ E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\
 E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Source\creativejam\DestructibleComponent.h
-E:\EpicGames\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Source\creativejam\creativejamCharacter.h
 E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
@@ -127,4 +126,3 @@ E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMo
 E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamCharacter.generated.h
 C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\DestructibleComponent.generated.h
-C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\DestructibleWidget.generated.h

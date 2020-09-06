@@ -21,18 +21,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> CREATIVEJAM_API UScriptStruct* StaticStruct<struct FDestructibleData>();
 
 #define creativejam_Source_creativejam_creativejamCharacter_h_38_SPARSE_DATA
-#define creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execSetKickSpeed); \
-	DECLARE_FUNCTION(execSetPunchSpeed);
-
-
-#define creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execSetKickSpeed); \
-	DECLARE_FUNCTION(execSetPunchSpeed);
-
-
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS
+#define creativejam_Source_creativejam_creativejamCharacter_h_38_RPC_WRAPPERS_NO_PURE_DECLS
 #define creativejam_Source_creativejam_creativejamCharacter_h_38_EVENT_PARMS
 #define creativejam_Source_creativejam_creativejamCharacter_h_38_CALLBACK_WRAPPERS
 #define creativejam_Source_creativejam_creativejamCharacter_h_38_INCLASS_NO_PURE_DECLS \

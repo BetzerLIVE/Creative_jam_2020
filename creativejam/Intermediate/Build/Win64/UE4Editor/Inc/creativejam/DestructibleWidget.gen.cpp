@@ -115,9 +115,9 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleWidget() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OwningDestructibleComponent_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OwningDestrucctibleComponent_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OwningDestructibleComponent;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OwningDestrucctibleComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -138,16 +138,16 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleWidget() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestructibleComponent_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestrucctibleComponent_MetaData[] = {
 		{ "Category", "Destructible" },
 		{ "EditInline", "true" },
 		{ "ExposeOnSpawn", "" },
 		{ "ModuleRelativePath", "DestructibleWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestructibleComponent = { "OwningDestructibleComponent", nullptr, (EPropertyFlags)0x001100000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleWidget, OwningDestructibleComponent), Z_Construct_UClass_UDestructibleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestructibleComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestructibleComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestrucctibleComponent = { "OwningDestrucctibleComponent", nullptr, (EPropertyFlags)0x001100000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDestructibleWidget, OwningDestrucctibleComponent), Z_Construct_UClass_UDestructibleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestrucctibleComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestrucctibleComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDestructibleWidget_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestructibleComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDestructibleWidget_Statics::NewProp_OwningDestrucctibleComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UDestructibleWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UDestructibleWidget>::IsAbstract,
@@ -176,7 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructibleWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDestructibleWidget, 3085718200);
+	IMPLEMENT_CLASS(UDestructibleWidget, 2134676749);
 	template<> CREATIVEJAM_API UClass* StaticClass<UDestructibleWidget>()
 	{
 		return UDestructibleWidget::StaticClass();

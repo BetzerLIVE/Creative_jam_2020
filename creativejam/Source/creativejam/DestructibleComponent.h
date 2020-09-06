@@ -9,8 +9,7 @@
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnBeginFocus, class AcreativejamCharacter*, Character);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEndFocus, class AcreativejamCharacter*, Character);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPunch, class AcreativejamCharacter*, Character);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnKick, class AcreativejamCharacter*, Character);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnAttack, class AcreativejamCharacter*, Character);
 /**
  * 
  */
@@ -41,10 +40,7 @@ public:
 
 	//[local + server] Called when the player has interacted with the item for the required amount of time
 	UPROPERTY(EditDefaultsOnly, BlueprintAssignable)
-	FOnPunch OnPunch;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintAssignable)
-	FOnKick OnKick;
+	FOnAttack OnAttack;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float MaxHealth;
@@ -52,23 +48,20 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float CurrentHealth;
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetRemainingHealth();
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Destructible")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
 	int DestructibleLevel;
 
-	UFUNCTION(BlueprintCallable)
-	void SetHealth(float p_health);
+	void SetHealth(float p_damage);
 
 	void RefreshWidget();
 
 	void BeginFocus(class AcreativejamCharacter* Character);
 	void EndFocus(class AcreativejamCharacter* Character);
 
-	void Punch(class AcreativejamCharacter* Character);
-
-	void Kick(class AcreativejamCharacter* Character);
+	void OnGettingAttacked(class AcreativejamCharacter* Character);
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnDeath();
