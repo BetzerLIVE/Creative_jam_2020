@@ -31,7 +31,7 @@ void EmptyLinkFunctionForGeneratedCodecreativejam_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x4A96CFF3,
+				0x4389AA91,
 				0x859B43E4,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -428,11 +428,11 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth = { "CurrentHealth", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, CurrentHealth), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentHealth_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleCheckDistance_MetaData[] = {
-		{ "Category", "creativejamCharacter" },
+		{ "Category", "Melee" },
 		{ "ModuleRelativePath", "creativejamCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleCheckDistance = { "DestructibleCheckDistance", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, DestructibleCheckDistance), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleCheckDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleCheckDistance_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleCheckDistance = { "DestructibleCheckDistance", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, DestructibleCheckDistance), METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleCheckDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_DestructibleCheckDistance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxHealth_MetaData[] = {
 		{ "Category", "Health" },
@@ -622,7 +622,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AcreativejamCharacter, 1085414413);
+	IMPLEMENT_CLASS(AcreativejamCharacter, 577945711);
 	template<> CREATIVEJAM_API UClass* StaticClass<AcreativejamCharacter>()
 	{
 		return AcreativejamCharacter::StaticClass();

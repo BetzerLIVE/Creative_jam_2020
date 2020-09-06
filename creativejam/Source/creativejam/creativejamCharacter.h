@@ -114,7 +114,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health")
 	float MaxHealth;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
 	float DestructibleCheckDistance;
 
 	float DestructibleCheckFrequency;

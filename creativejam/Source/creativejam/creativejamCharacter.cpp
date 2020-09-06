@@ -37,8 +37,8 @@ AcreativejamCharacter::AcreativejamCharacter()
 	Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
 	Mesh1P->SetOnlyOwnerSee(true);
 	Mesh1P->SetupAttachment(FirstPersonCameraComponent);
-	Mesh1P->bCastDynamicShadow = false;
-	Mesh1P->CastShadow = false;
+	Mesh1P->bCastDynamicShadow = true;
+	Mesh1P->CastShadow = true;
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 
@@ -121,7 +121,7 @@ void AcreativejamCharacter::SetKickSpeed(float speed)
 
 void AcreativejamCharacter::SetDestructibleCheckDistance(float CheckDistance)
 {
-	DestructibleCheckDistance = CheckDistance;
+	CheckDistance = CheckDistance;
 }
 
 
