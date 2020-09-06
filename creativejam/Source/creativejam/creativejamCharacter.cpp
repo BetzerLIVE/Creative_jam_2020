@@ -55,18 +55,6 @@ AcreativejamCharacter::AcreativejamCharacter()
 	PastExp = CurrentExp;
 	MaxLevel = 10;
 
-
-	ExpRequiredPerLvl[0] = 50;
-	ExpRequiredPerLvl[1] = 100;
-	ExpRequiredPerLvl[2] = 250;
-	ExpRequiredPerLvl[3] = 450;
-	ExpRequiredPerLvl[4] = 750;
-	ExpRequiredPerLvl[5] = 1150;
-	ExpRequiredPerLvl[6] = 2350;
-	ExpRequiredPerLvl[7] = 4400;
-	ExpRequiredPerLvl[8] = 7600;
-	ExpRequiredPerLvl[9] = 11000;
-
 	PunchAttackDamage = 100;
 
 	KickAttackDamage = PunchAttackDamage * 2;
@@ -136,27 +124,6 @@ void AcreativejamCharacter::SetDestructibleCheckDistance(float CheckDistance)
 	DestructibleCheckDistance = CheckDistance;
 }
 
-void AcreativejamCharacter::AddExp(int exp)
-{
-	PastExp = CurrentExp;
-	CurrentExp = CurrentExp + exp;
-	if (IslevelingUp())
-	{
-		OnLevelUp();
-	}
-}
-
-bool AcreativejamCharacter::IslevelingUp()
-{
-	for (int i = 0; i < 10; i++)
-	{
-		if (CurrentExp >= ExpRequiredPerLvl[i] && PastExp < ExpRequiredPerLvl[i])
-		{
-			return true;
-		}
-	}
-	return false;
-}
 
 void AcreativejamCharacter::PerformDestructibleCheck()
 {
@@ -187,11 +154,11 @@ void AcreativejamCharacter::PerformDestructibleCheck()
 			if (UDestructibleComponent* DestructibleComponent = Cast<UDestructibleComponent>(TraceHit.GetActor()->GetComponentByClass(UDestructibleComponent::StaticClass())))
 			{
 				float Distance = (TraceStart - TraceHit.ImpactPoint).Size();
-				if (DestructibleComponent != GetDestructible() && Distance <= DestructibleComponent->InteractionDistance)
+				if (DestructibleComponent != GetDestructible() && Distance <= DestructibleCheckDistance)
 				{
 					FoundNewDestructible(DestructibleComponent);
 				}
-				else if (Distance > DestructibleComponent->InteractionDistance && GetDestructible())
+				else if (Distance > DestructibleCheckDistance && GetDestructible())
 				{
 					CouldntFindDestructible();
 				}

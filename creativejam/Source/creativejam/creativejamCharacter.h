@@ -114,6 +114,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health")
 	float MaxHealth;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	float DestructibleCheckDistance;
 
 	float DestructibleCheckFrequency;
@@ -134,12 +135,6 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
 	int MaxLevel;
-
-	int  ExpRequiredPerLvl[10];
-
-	void AddExp(int exp);
-
-	bool IslevelingUp();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnLevelUp();
