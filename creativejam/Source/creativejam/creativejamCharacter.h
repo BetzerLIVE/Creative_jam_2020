@@ -74,11 +74,11 @@ public:
 
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
-	class UAnimSequence* PunchAnimation;
+	class UAnimMontage* PunchAnimation;
 
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Melee)
-	class UAnimSequence* KickAnimation;
+	class UAnimMontage* KickAnimation;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Melee)
 	float PunchAttackDamage;

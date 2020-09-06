@@ -201,11 +201,37 @@ void AcreativejamCharacter::FoundNewDestructible(UDestructibleComponent* Destruc
 void AcreativejamCharacter::OnFire()
 {
 
+	// try and play the sound if specified
+	if (PunchSound != NULL)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, PunchSound, GetActorLocation());
+	}
+
+	// try and play a firing animation if specified
+	if (PunchAnimation != NULL)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		if (AnimInstance != NULL)
+		{
+			AnimInstance->Montage_Play(PunchAnimation, 1.f);
+		}
+	}
 }
 
 void AcreativejamCharacter::OnPunch()
 {
 	GetWorldTimerManager().ClearTimer(TimerHandle);
+
+	UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+	if (AnimInstance != NULL)
+	{
+		AnimInstance->Montage_Play(PunchAnimation, 1.f);
+	}
+	if (PunchSound != NULL)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, PunchSound, GetActorLocation());
+	}
 
 	if (GetWorld()->TimeSince(LastPunchAttackTime > PunchSpeed))
 	{
@@ -216,12 +242,21 @@ void AcreativejamCharacter::OnPunch()
 	}
 
 	LastPunchAttackTime = GetWorld()->GetTimeSeconds();
-	Punch = false;
 }
 
 void AcreativejamCharacter::OnKick()
 {
 	GetWorldTimerManager().ClearTimer(TimerHandle);
+
+	UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+	if (AnimInstance != NULL)
+	{
+		AnimInstance->Montage_Play(KickAnimation, 1.f);
+	}
+	if (KickSound != NULL)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, KickSound, GetActorLocation());
+	}
 
 	if (GetWorld()->TimeSince(LastKickAttackTime > KickSpeed))
 	{
@@ -232,7 +267,6 @@ void AcreativejamCharacter::OnKick()
 	}
 
 	LastKickAttackTime = GetWorld()->GetTimeSeconds();
-	Kick = false;
 }
 
 void AcreativejamCharacter::MoveForward(float Value)
