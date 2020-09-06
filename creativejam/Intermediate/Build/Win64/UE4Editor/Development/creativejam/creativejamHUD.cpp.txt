@@ -1,20 +1,17 @@
-<<<<<<< Updated upstream
-=======
-E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h
-E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Source\creativejam\creativejamHUD.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-E:\Documents\Game Jam A20\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamHUD.generated.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\CanvasItem.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
->>>>>>> Stashed changes
+C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h
+C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Source\creativejam\creativejamHUD.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamHUD.generated.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+E:\EpicGames\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
