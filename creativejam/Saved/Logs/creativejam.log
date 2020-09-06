@@ -723,3 +723,72 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.06-08.13.53:547][637]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Car.
 [2020.09.06-08.13.53:783][666]LogSlate: Window 'Message Log' being destroyed
 [2020.09.06-08.13.53:786][666]LogSlate: Window 'Message Log' being destroyed
+[2020.09.06-08.15.54:625][805]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-08.19.03:583][529]AssetReimport: New page: Outstanding source content changes 00 h 19 min 03 s
+[2020.09.06-08.19.03:585][529]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_2.fbx)
+[2020.09.06-08.19.03:591][529]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_2.fbx
+[2020.09.06-08.19.03:598][529]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.19.05:990][529]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.19.06:138][529]LogStaticMesh: Building static mesh SM_Goal_2...
+[2020.09.06-08.19.06:171][529]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/FBX/SM_Goal_2.SM_Goal_2
+[2020.09.06-08.19.06:259][530]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_C.fbx)
+[2020.09.06-08.19.06:267][530]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_C.fbx
+[2020.09.06-08.19.06:274][530]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.19.08:187][530]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.19.08:308][530]LogStaticMesh: Building static mesh SM_M_Building_C...
+[2020.09.06-08.19.08:334][530]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/FBX/SM_M_Building_C.SM_M_Building_C
+[2020.09.06-08.19.08:388][531]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_1.fbx)
+[2020.09.06-08.19.08:397][531]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_1.fbx
+[2020.09.06-08.19.08:404][531]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.19.09:050][531]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.19.09:159][531]LogStaticMesh: Building static mesh SM_Goal_1...
+[2020.09.06-08.19.09:186][531]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/FBX/SM_Goal_1.SM_Goal_1
+[2020.09.06-08.19.09:222][532]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_L_Building_C.fbx)
+[2020.09.06-08.19.09:228][532]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_L_Building_C.fbx
+[2020.09.06-08.19.09:235][532]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.19.09:743][532]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.19.09:835][532]LogStaticMesh: Building static mesh SM_L_Building_C...
+[2020.09.06-08.19.09:858][532]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/FBX/SM_L_Building_C.SM_L_Building_C
+[2020.09.06-08.19.09:890][533]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_3.fbx)
+[2020.09.06-08.19.09:896][533]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_3.fbx
+[2020.09.06-08.19.09:902][533]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.19.10:461][533]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.19.10:541][533]LogStaticMesh: Building static mesh SM_Goal_3...
+[2020.09.06-08.19.10:559][533]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/FBX/SM_Goal_3.SM_Goal_3
+[2020.09.06-08.19.10:606][534]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_FoodCart.fbx)
+[2020.09.06-08.19.10:612][534]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_FoodCart.fbx
+[2020.09.06-08.19.10:618][534]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.19.11:164][534]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.19.11:234][534]LogStaticMesh: Building static mesh SM_FoodCart...
+[2020.09.06-08.19.11:252][534]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/FBX/SM_FoodCart.SM_FoodCart
+[2020.09.06-08.19.11:287][535]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Bench.fbx)
+[2020.09.06-08.19.11:293][535]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Bench.fbx
+[2020.09.06-08.19.11:299][535]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.19.11:825][535]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.19.11:867][535]LogStaticMesh: Building static mesh SM_Bench_SM_Bench...
+[2020.09.06-08.19.11:877][535]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/FBX/SM_Bench_SM_Bench.SM_Bench_SM_Bench
+[2020.09.06-08.19.11:882][535]LogStaticMesh: Building static mesh SM_Bench_UVX_SM_Bench_2...
+[2020.09.06-08.19.11:883][535]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/FBX/SM_Bench_UVX_SM_Bench_2.SM_Bench_UVX_SM_Bench_2
+[2020.09.06-08.19.11:978][536]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_Goal_288DCC40842A6C07BC20E4CA4A4CBD05E.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_2.uasset'
+[2020.09.06-08.19.12:004][536]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_M_Building_C0AEEAFBB41F0A02894D1EB9A28F4C5E6.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_C.uasset'
+[2020.09.06-08.19.12:027][536]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_Goal_1E34927BA43B934364E5C9897E188322A.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_1.uasset'
+[2020.09.06-08.19.12:051][536]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_L_Building_CA0ED710C471EF78BC022EF96273F5401.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_L_Building_C.uasset'
+[2020.09.06-08.19.12:074][536]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_Goal_343651C6C4C40EA7388EF61A1503A34C9.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Goal_3.uasset'
+[2020.09.06-08.19.12:096][536]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_FoodCartD1CDA8DE4C845F211DAB5FA570344212.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_FoodCart.uasset'
+[2020.09.06-08.19.12:103][536]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_BenchB342904B4A10F7EFC80631A0A6B82411.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Bench.uasset'
+[2020.09.06-08.19.12:190][537]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.06-08.19.12:190][537]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_Goal_2.SM_Goal_2
+[2020.09.06-08.19.12:190][537]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_M_Building_C.SM_M_Building_C
+[2020.09.06-08.19.12:190][537]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_Goal_1.SM_Goal_1
+[2020.09.06-08.19.12:190][537]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_L_Building_C.SM_L_Building_C
+[2020.09.06-08.19.12:190][537]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_Goal_3.SM_Goal_3
+[2020.09.06-08.19.12:190][537]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_FoodCart.SM_FoodCart
+[2020.09.06-08.19.14:860][795]LogSlate: Window 'Message Log' being destroyed
+[2020.09.06-08.19.14:864][795]LogSlate: Window 'Message Log' being destroyed
+[2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Goal_2.
+[2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_M_Building_C.
+[2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Goal_1.
+[2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_L_Building_C.
+[2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Goal_3.
+[2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_FoodCart.
+[2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Bench.
