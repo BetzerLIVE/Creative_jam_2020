@@ -142,6 +142,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
 	int MaxLevel;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Leveling")
+	bool bWin;
+
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnLevelUp();
 

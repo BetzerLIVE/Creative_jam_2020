@@ -277,6 +277,11 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bWin_MetaData[];
+#endif
+		static void NewProp_bWin_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bWin;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxLevel_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_MaxLevel;
@@ -401,6 +406,17 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		{ "ToolTip", "config=Game" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bWin_MetaData[] = {
+		{ "Category", "Leveling" },
+		{ "ModuleRelativePath", "creativejamCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bWin_SetBit(void* Obj)
+	{
+		((AcreativejamCharacter*)Obj)->bWin = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bWin = { "bWin", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AcreativejamCharacter), &Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bWin_SetBit, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bWin_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bWin_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel_MetaData[] = {
 		{ "Category", "Leveling" },
@@ -603,6 +619,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P = { "Mesh1P", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AcreativejamCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AcreativejamCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_bWin,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_MaxLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_PastExp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AcreativejamCharacter_Statics::NewProp_CurrentExp,
@@ -656,7 +673,7 @@ static struct FScriptStruct_creativejam_StaticRegisterNativesFDestructibleData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AcreativejamCharacter, 1512418237);
+	IMPLEMENT_CLASS(AcreativejamCharacter, 2868768352);
 	template<> CREATIVEJAM_API UClass* StaticClass<AcreativejamCharacter>()
 	{
 		return AcreativejamCharacter::StaticClass();

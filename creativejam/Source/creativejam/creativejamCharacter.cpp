@@ -88,6 +88,8 @@ void AcreativejamCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
 
+
+	bWin = false;
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
