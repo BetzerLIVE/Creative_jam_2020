@@ -855,3 +855,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.06-18.16.42:439][108]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacterAD7C018D402B359B5705E3A1802F0ED8.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
 [2020.09.06-18.16.42:449][108]AssetCheck: New page: Asset Save: FirstPersonCharacter
 [2020.09.06-18.16.42:449][108]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-18.17.53:494][657]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2020.09.06-18.17.53:497][657]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2020.09.06-18.17.53:512][657]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-18.17.53:512][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
