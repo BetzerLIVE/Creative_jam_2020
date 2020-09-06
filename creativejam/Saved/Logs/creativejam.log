@@ -4341,3 +4341,250 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.06-16.34.11:780][805]LogContentValidation: Display: Validating World /Game/Maps/Blocking_Lv.Blocking_Lv
 [2020.09.06-16.34.11:840][805]LogContentValidation: Display: Validating World /Game/Maps/MASTER_Lv.MASTER_Lv
 [2020.09.06-16.34.11:857][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.09.06-16.35.15:602][253]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MASTER_Lv.MASTER_Lv
+[2020.09.06-16.35.15:615][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.09.06-16.35.15:617][253]Cmd: MAP LOAD FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.06-16.35.15:617][253]LightingResults: New page: Lighting Build
+[2020.09.06-16.35.15:617][253]LoadErrors: New page: Loading map: MASTER_Lv.umap
+[2020.09.06-16.35.15:618][253]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.35.15:618][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.35.15:619][253]MapCheck: New page: Map Check
+[2020.09.06-16.35.15:619][253]LightingResults: New page: Lighting Build
+[2020.09.06-16.35.15:632][253]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020EFD513B00), frame # 147253
+[2020.09.06-16.35.15:632][253]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020EFC270600), frame # 147253
+[2020.09.06-16.35.15:634][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.09.06-16.35.15:649][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.09.06-16.35.15:665][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.09.06-16.35.15:679][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.09.06-16.35.15:680][253]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Light_Lv) is flushing async loading
+[2020.09.06-16.35.15:680][253]LogStreaming: Display: Flushing async loaders.
+[2020.09.06-16.35.15:684][253]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Blocking2_Lv) is flushing async loading
+[2020.09.06-16.35.15:688][253]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Blocking_Lv) is flushing async loading
+[2020.09.06-16.35.15:830][253]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.06-16.35.15:830][253]LogAIModule: Creating AISystem for world MASTER_Lv
+[2020.09.06-16.35.15:830][253]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020EDEA96200), frame # 147253
+[2020.09.06-16.35.15:830][253]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020EE2ADCCC0), frame # 147253
+[2020.09.06-16.35.15:850][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.09.06-16.35.15:882][253]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.06-16.35.15:883][253]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,277ms to complete.
+[2020.09.06-16.35.15:883][253]LogFileHelpers: Loading map 'MASTER_Lv' took 0.265
+[2020.09.06-16.35.39:098][  4]Cmd: SELECT NONE
+[2020.09.06-16.35.49:408][203]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.09.06-16.35.49:422][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.09.06-16.35.49:424][203]LightingResults: New page: Lighting Build
+[2020.09.06-16.35.49:424][203]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2020.09.06-16.35.49:447][203]LogWorld: UWorld::CleanupWorld for MASTER_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.35.49:447][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.35.49:447][203]LogWorld: UWorld::CleanupWorld for Light_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.35.49:447][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.35.49:447][203]LogWorld: UWorld::CleanupWorld for Blocking2_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.35.49:447][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.35.49:447][203]LogWorld: UWorld::CleanupWorld for Blocking_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.35.49:447][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.35.49:447][203]MapCheck: New page: Map Check
+[2020.09.06-16.35.49:447][203]LightingResults: New page: Lighting Build
+[2020.09.06-16.35.49:461][203]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020EE2ADCCC0), frame # 151203
+[2020.09.06-16.35.49:461][203]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020EDEA96200), frame # 151203
+[2020.09.06-16.35.49:463][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.09.06-16.35.49:548][203]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.06-16.35.49:548][203]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-16.35.49:548][203]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020E73A94400), frame # 151203
+[2020.09.06-16.35.49:548][203]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E73714B80), frame # 151203
+[2020.09.06-16.35.49:565][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.09.06-16.35.49:600][203]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.06-16.35.49:600][203]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,111ms to complete.
+[2020.09.06-16.35.49:600][203]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.176
+[2020.09.06-16.35.49:647][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.09.06-16.37.48:227][191]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:245][192]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:253][193]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:262][194]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:270][195]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:278][196]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:286][197]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:295][198]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:303][199]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:311][200]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:319][201]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:328][202]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:336][203]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:344][204]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:353][205]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:362][206]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:369][207]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:378][208]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:387][209]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:395][210]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:404][211]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:411][212]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:419][213]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:428][214]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:437][215]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:445][216]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:453][217]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:461][218]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:469][219]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:478][220]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:487][221]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:495][222]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:503][223]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:512][224]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:520][225]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:529][226]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:537][227]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:544][228]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:553][229]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:561][230]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:569][231]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:577][232]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:587][233]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:595][234]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:603][235]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:612][236]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:620][237]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:629][238]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:637][239]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:645][240]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:654][241]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:662][242]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:670][243]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:679][244]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:688][245]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:695][246]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:703][247]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:712][248]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:720][249]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:728][250]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:736][251]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:745][252]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:754][253]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:762][254]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:770][255]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:778][256]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:786][257]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:795][258]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:803][259]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:812][260]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:820][261]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:829][262]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:839][263]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:862][264]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:871][265]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:879][266]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:887][267]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:904][269]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:912][270]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:920][271]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:928][272]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:936][273]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:945][274]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:953][275]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:961][276]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:970][277]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:979][278]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:987][279]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.48:995][280]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:004][281]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:012][282]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:020][283]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:029][284]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:038][285]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:046][286]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:054][287]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:063][288]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:071][289]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:079][290]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:088][291]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:096][292]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:104][293]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:112][294]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:120][295]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:128][296]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:137][297]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:145][298]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:154][299]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:163][300]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:171][301]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:179][302]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:187][303]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:195][304]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:204][305]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:212][306]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:220][307]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:229][308]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:237][309]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:246][310]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:254][311]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:262][312]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:270][313]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:278][314]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:287][315]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-16.37.49:315][316]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/RiggedBaby_Assets/RiggedBaby.RiggedBaby
+[2020.09.06-16.37.50:743][316]LogSlate: Window 'Message' being destroyed
+[2020.09.06-16.37.50:747][316]Message dialog closed, result: Yes, title: Message, text: This mesh currently has no valid Skeleton. Would you like to create a new Skeleton?
+[2020.09.06-16.37.50:775][316]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.09.06-16.37.50:779][316]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.06-16.37.50:780][316]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.09.06-16.38.01:409][417]LogSlate: Window 'RiggedBaby' being destroyed
+[2020.09.06-16.38.01:411][417]LogSlate: Window 'RiggedBaby' being destroyed
+[2020.09.06-16.38.01:436][417]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.38.01:436][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.38.44:103][795]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.06-16.38.44:118][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.06-16.38.44:118][795]PIE: New page: PIE session: FirstPersonExampleMap (6 sept. 2020 08 h 38 min 44 s)
+[2020.09.06-16.38.44:118][795]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-16.38.44:135][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016482s)
+[2020.09.06-16.38.44:136][795]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-16.38.44:136][795]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020EC329BC00), frame # 160795
+[2020.09.06-16.38.44:136][795]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020EC4522700), frame # 160795
+[2020.09.06-16.38.44:136][795]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2020.09.06-16.38.44:136][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017883s)
+[2020.09.06-16.38.44:194][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.09.06-16.38.44:197][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.06-16.38.44:197][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.06-16.38.44:197][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.06-16.38.44:197][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.06-16.38.44:197][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.06-16.38.44:197][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.06-16.38.44:197][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.06-16.38.44:197][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.06-16.38.44:198][795]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.06-16.38.44:198][795]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.06-16.38.44:214][795]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.06-16.38.44:214][795]LogAudioMixer: Display: 1: FrontRight
+[2020.09.06-16.38.44:244][795]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2020.09.06-16.38.44:244][795]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.06-16.38.44:244][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.06-16.38.44:244][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.06-16.38.44:244][795]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.06-16.38.44:255][795]LogInit: FAudioDevice initialized.
+[2020.09.06-16.38.44:262][795]LogLoad: Game class is 'creativejamGameMode'
+[2020.09.06-16.38.44:266][795]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.06-12.38.44
+[2020.09.06-16.38.44:267][795]LogWorld: Bringing up level for play took: 0.003476
+[2020.09.06-16.38.44:267][795]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2020.09.06-16.38.44:271][795]PIE: Server logged in
+[2020.09.06-16.38.44:271][795]PIE: Play in editor total start time 0,155 seconds.
+[2020.09.06-16.39.06:067][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-16.39.06:067][402]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-16.39.06:067][402]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.39.06:068][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.39.06:075][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.06-16.39.06:078][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.39.06:104][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-16.39.06:110][402]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020EC4522700), frame # 163402
+[2020.09.06-16.39.06:110][402]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020EC329BC00), frame # 163402
+[2020.09.06-16.39.06:123][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.09.06-16.39.06:161][403]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.09.06-16.42.10:376][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.09.06-16.42.12:414][171]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/Dawg.Dawg
+[2020.09.06-16.42.47:030][623]LogAnimation: Warning: Animation FirstPerson_Idle is incompatible with skeleton SkeletalCube_Skeleton, removing animation from actor.
+[2020.09.06-16.42.47:030][623]LogAnimation: Warning: Animation FirstPerson_Idle is incompatible with skeleton SkeletalCube_Skeleton, removing animation from actor.
+[2020.09.06-16.42.47:030][623]LogAnimation: Warning: Animation FirstPerson_Idle is incompatible with skeleton SkeletalCube_Skeleton, removing animation from actor.
+[2020.09.06-16.42.50:078][964]BlueprintLog: New page: Compile Dawg
+[2020.09.06-16.42.50:125][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.09.06-16.42.50:655][ 15]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Dawg83CA24D84BD0EF6E8C366D92E74069C6.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/Dawg.uasset'
+[2020.09.06-16.42.50:667][ 15]AssetCheck: New page: Asset Save: Dawg
+[2020.09.06-16.42.50:667][ 15]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/Dawg.Dawg
+[2020.09.06-16.42.53:125][298]LogSlate: Window 'Dawg' being destroyed
+[2020.09.06-16.42.53:176][298]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.42.53:176][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
