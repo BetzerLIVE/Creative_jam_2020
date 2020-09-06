@@ -792,3 +792,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Goal_3.
 [2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_FoodCart.
 [2020.09.06-08.19.15:122][820]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Bench.
+[2020.09.06-08.19.42:562][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.09.06-08.19.42:565][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.024
+[2020.09.06-08.19.42:565][376]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/FBX/SM_Bench_SM_Bench] ([1] browsable assets)...
+[2020.09.06-08.19.42:573][376]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/FBX/SM_Bench_SM_Bench.SM_Bench_SM_Bench]
+[2020.09.06-08.19.42:573][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/FBX/SM_Bench_SM_Bench]
+[2020.09.06-08.19.42:585][376]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_Bench_SM_Bench_Auto2A2B91AA4445AA38392F78EB42D4592B6.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Autosaves/Game/Geometry/FBX/SM_Bench_SM_Bench_Auto2.uasset'
+[2020.09.06-08.19.42:587][376]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/FBX/SM_Bench_UVX_SM_Bench_2] ([1] browsable assets)...
+[2020.09.06-08.19.42:595][376]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/FBX/SM_Bench_UVX_SM_Bench_2.SM_Bench_UVX_SM_Bench_2]
+[2020.09.06-08.19.42:595][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/FBX/SM_Bench_UVX_SM_Bench_2]
+[2020.09.06-08.19.42:605][376]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_Bench_UVX_SM_Bench_2_Auto293FAE4FD403DF03156EAE8AB1F411EF2.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Autosaves/Game/Geometry/FBX/SM_Bench_UVX_SM_Bench_2_Auto2.uasset'
+[2020.09.06-08.19.42:606][376]LogFileHelpers: Auto-saving content packages took 0.041
