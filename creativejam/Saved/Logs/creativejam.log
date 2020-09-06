@@ -706,3 +706,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.06-08.05.40:564][525]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonExampleMap_Auto1116D977E4A59C5D87209479AEF209DC9.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
 [2020.09.06-08.05.40:569][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.089
 [2020.09.06-08.05.40:569][525]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2020.09.06-08.13.34:727][225]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2020.09.06-08.13.34:733][225]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-08.13.34:733][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-08.13.48:057][280]AssetReimport: New page: Outstanding source content changes 00 h 13 min 48 s
+[2020.09.06-08.13.48:060][280]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.fbx)
+[2020.09.06-08.13.48:069][280]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.fbx
+[2020.09.06-08.13.48:077][280]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-08.13.50:042][280]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.06-08.13.50:310][280]LogStaticMesh: Building static mesh SM_Car...
+[2020.09.06-08.13.50:358][280]LogStaticMesh: Built static mesh [0.05s] /Game/Geometry/FBX/SM_Car.SM_Car
+[2020.09.06-08.13.50:512][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/FBX/SM_Car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.uasset" SILENT=true
+[2020.09.06-08.13.50:531][281]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_CarC00D7E4B4ACED6C746AB15A9F2978630.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.uasset'
+[2020.09.06-08.13.50:577][282]AssetCheck: New page: Asset Save: SM_Car
+[2020.09.06-08.13.50:577][282]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_Car.SM_Car
+[2020.09.06-08.13.53:547][637]AssetReimport: Importing new asset /Game/Geometry/FBX/SM_Car.
+[2020.09.06-08.13.53:783][666]LogSlate: Window 'Message Log' being destroyed
+[2020.09.06-08.13.53:786][666]LogSlate: Window 'Message Log' being destroyed
