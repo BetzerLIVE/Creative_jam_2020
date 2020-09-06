@@ -1000,3 +1000,266 @@ Make sure 'FirstPersonCharacter_C' has been compiled for  Set DestructibleCheckD
 [2020.09.06-15.38.58:965][400]Cmd: MAP CHECKDEP NOCLEARLOG
 [2020.09.06-15.38.58:965][400]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,108ms to complete.
 [2020.09.06-15.38.58:966][400]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.119
+[2020.09.06-15.42.16:615][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.09.06-15.42.30:738][ 15]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.42.54:713][722]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.42.54:741][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.09.06-15.42.55:444][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.42.55:460][792]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchE4F4E52D461B4EAD8DD7AFB9CA14D13B.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.42.55:471][792]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.42.55:471][792]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.05:004][800]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.43.05:053][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.09.06-15.43.05:644][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.43.05:669][856]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchA2CF6D4C493F0742C4B80C97701C96CE.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.43.05:679][856]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.43.05:679][856]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.12:687][671]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.43.12:724][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.09.06-15.43.13:426][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.43.13:447][738]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchFFC867DC4BF49C90ABE2A3BC8C602A81.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.43.13:458][738]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.43.13:458][738]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.31:632][817]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.43.31:667][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.09.06-15.43.32:210][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.43.32:232][866]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_Bench529929BB45DBE2C4327667AEE5152A0E.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.43.32:243][866]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.43.32:243][866]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.34:949][176]LogSlate: Window 'BP_Bench' being destroyed
+[2020.09.06-15.43.34:967][176]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.43.34:967][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.43.42:317][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.09.06-15.44.02:967][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.09.06-15.44.02:972][390]LogMetaData: Removing '/Game/BP/BP_car.SKEL_BP_car_C' ref from Metadata '/Game/BP/BP_Bench1.PackageMetaData'
+[2020.09.06-15.44.02:972][390]LogMetaData: Removing '/Game/BP/BP_car.BP_car_C' ref from Metadata '/Game/BP/BP_Bench1.PackageMetaData'
+[2020.09.06-15.44.03:015][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset" SILENT=true
+[2020.09.06-15.44.03:033][390]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_car6FA32D8D492CFF12E63714BB1F7C2F7C.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset'
+[2020.09.06-15.44.03:147][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.09.06-15.44.03:164][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.06-15.44.03:176][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.09.06-15.44.03:203][390]AssetCheck: New page: Asset Save: BP_car
+[2020.09.06-15.44.03:203][390]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.04:386][527]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.29:826][222]BlueprintLog: New page: Compile BP_car
+[2020.09.06-15.44.29:857][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.09.06-15.44.30:392][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset" SILENT=true
+[2020.09.06-15.44.30:417][276]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_car04B88641409CCADD770518A7CEE6F6AF.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset'
+[2020.09.06-15.44.30:429][276]AssetCheck: New page: Asset Save: BP_car
+[2020.09.06-15.44.30:429][276]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.32:471][510]LogSlate: Window 'BP_car' being destroyed
+[2020.09.06-15.44.32:488][510]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.44.32:489][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.44.33:835][647]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.44.39:150][216]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.44.39:180][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.09.06-15.44.39:726][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.44.39:746][269]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchCC8A00594EA65561C22F0A87AB4268FF.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.44.39:757][269]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.44.39:757][269]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.44.40:487][347]LogSlate: Window 'BP_Bench' being destroyed
+[2020.09.06-15.44.40:491][347]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.44.40:491][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.44.41:751][474]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.51:740][502]BlueprintLog: New page: Compile BP_car
+[2020.09.06-15.44.51:772][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.09.06-15.44.52:190][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset" SILENT=true
+[2020.09.06-15.44.52:211][539]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_carAC94A8964746BD353CDC65AA133AB5CA.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset'
+[2020.09.06-15.44.52:222][539]AssetCheck: New page: Asset Save: BP_car
+[2020.09.06-15.44.52:222][539]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.55:044][860]LogSlate: Window 'BP_car' being destroyed
+[2020.09.06-15.44.55:048][860]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.44.55:048][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.45.03:323][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.09.06-15.45.04:616][957]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_FoodCart.BP_FoodCart
+[2020.09.06-15.45.33:149][289]BlueprintLog: New page: Compile BP_FoodCart
+[2020.09.06-15.45.33:179][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.09.06-15.45.39:357][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_FoodCart" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FoodCart.uasset" SILENT=true
+[2020.09.06-15.45.39:375][948]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_FoodCartA9F42173465E86D6111ED98B4A5260B4.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FoodCart.uasset'
+[2020.09.06-15.45.39:388][948]AssetCheck: New page: Asset Save: BP_FoodCart
+[2020.09.06-15.45.39:388][948]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_FoodCart.BP_FoodCart
+[2020.09.06-15.45.52:667][434]LogSlate: Window 'BP_FoodCart' being destroyed
+[2020.09.06-15.45.52:685][434]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.45.52:685][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.46.01:092][410]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.09.06-15.46.30:228][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.09.06-15.46.30:233][826]LogMetaData: Removing '/Game/BP/BP_LbuildingB.SKEL_BP_LbuildingB_C' ref from Metadata '/Game/BP/BP_FoodCart1.PackageMetaData'
+[2020.09.06-15.46.30:233][826]LogMetaData: Removing '/Game/BP/BP_LbuildingB.BP_LbuildingB_C' ref from Metadata '/Game/BP/BP_FoodCart1.PackageMetaData'
+[2020.09.06-15.46.30:260][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_LbuildingB" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset" SILENT=true
+[2020.09.06-15.46.30:279][826]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_LbuildingB4675DC434736434056834CB3A8A142E4.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset'
+[2020.09.06-15.46.30:412][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.09.06-15.46.30:432][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.09.06-15.46.30:446][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.09.06-15.46.30:472][826]AssetCheck: New page: Asset Save: BP_LbuildingB
+[2020.09.06-15.46.30:472][826]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_LbuildingB.BP_LbuildingB
+[2020.09.06-15.46.33:533][187]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_LbuildingB.BP_LbuildingB
+[2020.09.06-15.46.52:052][172]BlueprintLog: New page: Compile BP_LbuildingB
+[2020.09.06-15.46.52:081][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.09.06-15.46.52:689][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_LbuildingB" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset" SILENT=true
+[2020.09.06-15.46.52:714][232]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_LbuildingBA2775397411344EF0B336095CBE4966D.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset'
+[2020.09.06-15.46.52:725][232]AssetCheck: New page: Asset Save: BP_LbuildingB
+[2020.09.06-15.46.52:725][232]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_LbuildingB.BP_LbuildingB
+[2020.09.06-15.47.33:267][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.09.06-15.47.34:448][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_MHouse3.BP_MHouse3
+[2020.09.06-15.47.43:340][947]BlueprintLog: New page: Compile BP_MHouse3
+[2020.09.06-15.47.43:372][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.09.06-15.47.44:037][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_MHouse3" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_MHouse3.uasset" SILENT=true
+[2020.09.06-15.47.44:052][ 10]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_MHouse35862F4E54A1F7A01D20F208BCFD3B04B.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_MHouse3.uasset'
+[2020.09.06-15.47.44:064][ 10]AssetCheck: New page: Asset Save: BP_MHouse3
+[2020.09.06-15.47.44:064][ 10]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_MHouse3.BP_MHouse3
+[2020.09.06-15.47.50:915][749]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.47.50:915][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.47.53:293][ 10]LogSlate: Window 'BP_LbuildingB' being destroyed
+[2020.09.06-15.47.53:313][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.06-15.47.53:313][ 10]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.47.53:313][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.48.17:793][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.09.06-15.48.19:579][ 48]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_FinalBuilding.BP_FinalBuilding
+[2020.09.06-15.48.34:197][637]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.48.34:227][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.09.06-15.48.56:533][ 61]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.48.56:563][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.09.06-15.48.59:123][320]LogRenderer: Reallocating scene render targets to support 1208x700 Format 10 NumSamples 1 (Frame:1).
+[2020.09.06-15.50.26:579][203]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.50.26:627][203]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.09.06-15.50.42:833][991]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.50.42:875][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.09.06-15.50.43:583][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_FinalBuilding" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FinalBuilding.uasset" SILENT=true
+[2020.09.06-15.50.43:599][ 60]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_FinalBuildingA54CE682497EC1AE8D888C81108A3E91.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FinalBuilding.uasset'
+[2020.09.06-15.50.43:611][ 60]AssetCheck: New page: Asset Save: BP_FinalBuilding
+[2020.09.06-15.50.43:611][ 60]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_FinalBuilding.BP_FinalBuilding
+[2020.09.06-15.51.04:155][471]LogSlate: Window 'BP_FinalBuilding' being destroyed
+[2020.09.06-15.51.04:178][471]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.51.04:178][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.51.31:643][552]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.06-15.51.31:662][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.06-15.51.31:662][552]PIE: New page: PIE session: FirstPersonExampleMap (6 sept. 2020 07 h 51 min 31 s)
+[2020.09.06-15.51.31:663][552]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.06-15.51.31:663][552]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.06-15.51.31:663][552]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.51.31:684][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020064s)
+[2020.09.06-15.51.31:685][552]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-15.51.31:685][552]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001979AD0D800), frame # 76552
+[2020.09.06-15.51.31:685][552]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019700EED080), frame # 76552
+[2020.09.06-15.51.31:685][552]LogPlayLevel: PIE: World Init took: (0.001479s)
+[2020.09.06-15.51.31:685][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021709s)
+[2020.09.06-15.51.31:740][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.06-15.51.31:745][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.06-15.51.31:746][552]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.06-15.51.31:746][552]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.06-15.51.31:764][552]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.06-15.51.31:764][552]LogAudioMixer: Display: 1: FrontRight
+[2020.09.06-15.51.31:791][552]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.06-15.51.31:802][552]LogInit: FAudioDevice initialized.
+[2020.09.06-15.51.31:808][552]LogLoad: Game class is 'creativejamGameMode'
+[2020.09.06-15.51.31:812][552]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.06-11.51.31
+[2020.09.06-15.51.31:812][552]LogWorld: Bringing up level for play took: 0.003132
+[2020.09.06-15.51.31:812][552]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.09.06-15.51.31:815][552]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.09.06-15.51.31:825][552]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (DestructionAura) or object (FirstPersonCharacter_C_0)
+[2020.09.06-15.51.31:825][552]PIE: Server logged in
+[2020.09.06-15.51.31:827][552]PIE: Play in editor total start time 0,168 seconds.
+[2020.09.06-15.52.38:758][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.52.38:758][537]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.52.38:758][537]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.52.38:759][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.52.38:770][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.06-15.52.38:773][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.52.38:806][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.52.38:811][537]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019700EED080), frame # 84537
+[2020.09.06-15.52.38:811][537]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001979AD0D800), frame # 84537
+[2020.09.06-15.52.38:827][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.09.06-15.52.38:860][538]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.09.06-15.53.05:194][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.09.06-15.53.05:271][972]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonExampleMap_Auto18C8575BD48620E4E652ED6A7DDFE1A12.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.09.06-15.53.05:276][972]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.097
+[2020.09.06-15.53.05:276][972]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.097
+[2020.09.06-15.53.25:390][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.09.06-15.53.25:450][176]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonExampleMap229DC940438FD5769279E4AA69FE01E5.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2020.09.06-15.53.25:505][176]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2020.09.06-15.53.25:505][176]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.09.06-15.54.07:868][ 74]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.06-15.54.07:885][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.06-15.54.07:885][ 74]PIE: New page: PIE session: FirstPersonExampleMap (6 sept. 2020 07 h 54 min 07 s)
+[2020.09.06-15.54.07:917][ 74]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.54.07:934][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016474s)
+[2020.09.06-15.54.07:935][ 74]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-15.54.07:935][ 74]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001979B3CA200), frame # 90074
+[2020.09.06-15.54.07:935][ 74]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001977FB61440), frame # 90074
+[2020.09.06-15.54.07:935][ 74]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2020.09.06-15.54.07:935][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017969s)
+[2020.09.06-15.54.07:970][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.06-15.54.07:975][ 74]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.06-15.54.07:976][ 74]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.06-15.54.07:976][ 74]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.06-15.54.07:995][ 74]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.06-15.54.07:995][ 74]LogAudioMixer: Display: 1: FrontRight
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.06-15.54.08:033][ 74]LogInit: FAudioDevice initialized.
+[2020.09.06-15.54.08:043][ 74]LogLoad: Game class is 'creativejamGameMode'
+[2020.09.06-15.54.08:047][ 74]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.06-11.54.08
+[2020.09.06-15.54.08:047][ 74]LogWorld: Bringing up level for play took: 0.003205
+[2020.09.06-15.54.08:047][ 74]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2020.09.06-15.54.08:059][ 74]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (DestructionAura) or object (FirstPersonCharacter_C_0)
+[2020.09.06-15.54.08:059][ 74]PIE: Server logged in
+[2020.09.06-15.54.08:060][ 74]PIE: Play in editor total start time 0,175 seconds.
+[2020.09.06-15.55.42:124][325]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2020.09.06-15.55.42:216][326]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-15.55.52:072][402]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.56.18:692][976]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.06-15.58.50:148][380]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.09.06-15.58.58:198][314]LogEditorViewport: Clicking on Actor (LMB): BP_FinalBuilding_C (BP_FinalBuilding)
+[2020.09.06-15.59.17:747][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.59.17:747][576]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.59.17:747][576]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.59.17:748][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.59.17:760][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.06-15.59.17:763][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.59.17:778][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.59.17:793][576]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001977FB61440), frame # 120576
+[2020.09.06-15.59.17:793][576]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001979B3CA200), frame # 120576
+[2020.09.06-15.59.17:795][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.09.06-15.59.17:831][577]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2020.09.06-15.59.29:218][689]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.59.29:254][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.09.06-15.59.29:991][760]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacter10AFFC3F4FA8E638FD1346B912A97C63.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.30:007][760]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.30:007][760]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.34:634][275]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacter92D6102546D2C3C9FE5B70A6FAB2CE44.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.34:645][275]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.34:645][275]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.35:169][333]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.59.35:206][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.09.06-15.59.36:869][513]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacterDC34656043223B53B04DB78A3E9C5B81.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.36:881][513]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.36:881][513]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.52:063][199]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.59.52:098][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.09.06-15.59.52:551][238]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacter9C74B8FD46771CAACFDC05A9AFD6FFC1.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.52:562][238]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.52:562][238]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.56:596][689]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2020.09.06-15.59.56:607][689]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.59.56:608][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
