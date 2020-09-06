@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "creativejam",
+			"Path": "C:\\Users\\Nathanael\\Documents\\08_UNREAL_PROJECT\\creativejam\\Source\\creativejam.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "creativejamEditor",
+			"Path": "C:\\Users\\Nathanael\\Documents\\08_UNREAL_PROJECT\\creativejam\\Source\\creativejamEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
