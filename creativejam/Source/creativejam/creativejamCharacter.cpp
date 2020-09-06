@@ -53,6 +53,14 @@ AcreativejamCharacter::AcreativejamCharacter()
 	Currentlevel = 1;
 
 	MaxLevel = 10;
+
+	PunchAttackDamage = 100;
+
+	KickAttackDamage = PunchAttackDamage * 2;
+
+	PunchSpeed = 2.f;
+
+	KickSpeed = PunchSpeed * 2;
 }
 
 void AcreativejamCharacter::BeginPlay()
@@ -85,8 +93,9 @@ void AcreativejamCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AcreativejamCharacter::OnFire);
-
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AcreativejamCharacter::OnPunch);
+	// Bind secondary fire event
+	PlayerInputComponent->BindAction("SecondaryFire", IE_Pressed, this, &AcreativejamCharacter::OnKick);
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AcreativejamCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AcreativejamCharacter::MoveRight);
@@ -98,6 +107,16 @@ void AcreativejamCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAxis("TurnRate", this, &AcreativejamCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AcreativejamCharacter::LookUpAtRate);
+}
+
+void AcreativejamCharacter::SetPunchSpeed(float speed)
+{
+	PunchSpeed = speed;
+}
+
+void AcreativejamCharacter::SetKickSpeed(float speed)
+{
+	KickSpeed = speed;
 }
 
 void AcreativejamCharacter::SetDestructibleCheckDistance(float CheckDistance)
@@ -201,12 +220,32 @@ void AcreativejamCharacter::OnFire()
 
 void AcreativejamCharacter::OnPunch()
 {
+	GetWorldTimerManager().ClearTimer(TimerHandle);
 
+	if (GetWorld()->TimeSince(LastPunchAttackTime > PunchSpeed))
+	{
+		if (UDestructibleComponent* destructible = GetDestructible())
+		{
+			destructible->Punch(this);
+		}
+	}
+
+	LastPunchAttackTime = GetWorld()->GetTimeSeconds();
 }
 
 void AcreativejamCharacter::OnKick()
 {
+	GetWorldTimerManager().ClearTimer(TimerHandle);
 
+	if (GetWorld()->TimeSince(LastKickAttackTime > KickSpeed))
+	{
+		if (UDestructibleComponent* destructible = GetDestructible())
+		{
+			destructible->Kick(this);
+		}
+	}
+
+	LastKickAttackTime = GetWorld()->GetTimeSeconds();
 }
 
 void AcreativejamCharacter::MoveForward(float Value)

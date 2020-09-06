@@ -9,6 +9,7 @@ UDestructibleComponent::UDestructibleComponent()
 
 	InteractionDistance = 1000.f;
 	DestructibleNameText = FText::FromString("Building");
+	DestructibleLevel = 0;
 
 	Space = EWidgetSpace::Screen;
 	DrawSize = FIntPoint(400, 100);
@@ -22,19 +23,14 @@ UDestructibleComponent::UDestructibleComponent()
 	CurrentHealth = MaxHealth;
 }
 
-FText UDestructibleComponent::GetDestructibleNameText()
-{
-	return DestructibleNameText;
-}
-
-int UDestructibleComponent::GetDestructibleLevel()
-{
-	return CurrentHealth;
-}
-
 float UDestructibleComponent::GetRemainingHealth()
 {
 	return CurrentHealth;
+}
+
+void UDestructibleComponent::SetHealth(float p_health)
+{
+	CurrentHealth = p_health;
 }
 
 void UDestructibleComponent::RefreshWidget()
@@ -61,7 +57,6 @@ void UDestructibleComponent::BeginFocus(class AcreativejamCharacter* Character)
 			Prim->SetRenderCustomDepth(true);
 		}
 	}
-	
 	RefreshWidget();
 }
 
@@ -81,7 +76,18 @@ void UDestructibleComponent::EndFocus(class AcreativejamCharacter* Character)
 	
 }
 
-void UDestructibleComponent::OnGettingAttacked(class AcreativejamCharacter* Character)
+void UDestructibleComponent::Punch(class AcreativejamCharacter* Character)
 {
+	if (Character->Currentlevel >= DestructibleLevel)
+	{
+		OnPunch.Broadcast(Character);
+	}
+}
 
+void UDestructibleComponent::Kick(class AcreativejamCharacter* Character)
+{
+	if (Character->Currentlevel >= DestructibleLevel)
+	{
+		OnKick.Broadcast(Character);
+	}
 }

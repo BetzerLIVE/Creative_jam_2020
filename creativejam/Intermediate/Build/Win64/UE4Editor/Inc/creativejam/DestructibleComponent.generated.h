@@ -14,16 +14,29 @@ class AcreativejamCharacter;
 #endif
 #define CREATIVEJAM_DestructibleComponent_generated_h
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_12_DELEGATE \
-struct _Script_creativejam_eventOnAttack_Parms \
+#define creativejam_Source_creativejam_DestructibleComponent_h_13_DELEGATE \
+struct _Script_creativejam_eventOnKick_Parms \
 { \
 	AcreativejamCharacter* Character; \
 }; \
-static inline void FOnAttack_DelegateWrapper(const FMulticastScriptDelegate& OnAttack, AcreativejamCharacter* Character) \
+static inline void FOnKick_DelegateWrapper(const FMulticastScriptDelegate& OnKick, AcreativejamCharacter* Character) \
 { \
-	_Script_creativejam_eventOnAttack_Parms Parms; \
+	_Script_creativejam_eventOnKick_Parms Parms; \
 	Parms.Character=Character; \
-	OnAttack.ProcessMulticastDelegate<UObject>(&Parms); \
+	OnKick.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define creativejam_Source_creativejam_DestructibleComponent_h_12_DELEGATE \
+struct _Script_creativejam_eventOnPunch_Parms \
+{ \
+	AcreativejamCharacter* Character; \
+}; \
+static inline void FOnPunch_DelegateWrapper(const FMulticastScriptDelegate& OnPunch, AcreativejamCharacter* Character) \
+{ \
+	_Script_creativejam_eventOnPunch_Parms Parms; \
+	Parms.Character=Character; \
+	OnPunch.ProcessMulticastDelegate<UObject>(&Parms); \
 }
 
 
@@ -53,24 +66,22 @@ static inline void FOnBeginFocus_DelegateWrapper(const FMulticastScriptDelegate&
 }
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_SPARSE_DATA
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_RPC_WRAPPERS \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_SPARSE_DATA
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetRemainingHealth); \
-	DECLARE_FUNCTION(execGetDestructibleLevel); \
-	DECLARE_FUNCTION(execGetDestructibleNameText);
+	DECLARE_FUNCTION(execSetHealth); \
+	DECLARE_FUNCTION(execGetRemainingHealth);
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetRemainingHealth); \
-	DECLARE_FUNCTION(execGetDestructibleLevel); \
-	DECLARE_FUNCTION(execGetDestructibleNameText);
+	DECLARE_FUNCTION(execSetHealth); \
+	DECLARE_FUNCTION(execGetRemainingHealth);
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_EVENT_PARMS
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_CALLBACK_WRAPPERS
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_INCLASS_NO_PURE_DECLS \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_EVENT_PARMS
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_CALLBACK_WRAPPERS
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDestructibleComponent(); \
 	friend struct Z_Construct_UClass_UDestructibleComponent_Statics; \
@@ -79,7 +90,7 @@ public: \
 	DECLARE_SERIALIZER(UDestructibleComponent)
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_INCLASS \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesUDestructibleComponent(); \
 	friend struct Z_Construct_UClass_UDestructibleComponent_Statics; \
@@ -88,7 +99,7 @@ public: \
 	DECLARE_SERIALIZER(UDestructibleComponent)
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_STANDARD_CONSTRUCTORS \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDestructibleComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDestructibleComponent) \
@@ -101,7 +112,7 @@ private: \
 public:
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_ENHANCED_CONSTRUCTORS \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UDestructibleComponent(UDestructibleComponent&&); \
@@ -112,33 +123,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDestructibleComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDestructibleComponent)
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_PRIVATE_PROPERTY_OFFSET
-#define creativejam_Source_creativejam_DestructibleComponent_h_16_PROLOG \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_EVENT_PARMS
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_PRIVATE_PROPERTY_OFFSET
+#define creativejam_Source_creativejam_DestructibleComponent_h_17_PROLOG \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_EVENT_PARMS
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_GENERATED_BODY_LEGACY \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_PRIVATE_PROPERTY_OFFSET \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_SPARSE_DATA \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_RPC_WRAPPERS \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_CALLBACK_WRAPPERS \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_INCLASS \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_STANDARD_CONSTRUCTORS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_PRIVATE_PROPERTY_OFFSET \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_SPARSE_DATA \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_RPC_WRAPPERS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_CALLBACK_WRAPPERS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_INCLASS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define creativejam_Source_creativejam_DestructibleComponent_h_19_GENERATED_BODY \
+#define creativejam_Source_creativejam_DestructibleComponent_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_PRIVATE_PROPERTY_OFFSET \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_SPARSE_DATA \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_CALLBACK_WRAPPERS \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_INCLASS_NO_PURE_DECLS \
-	creativejam_Source_creativejam_DestructibleComponent_h_19_ENHANCED_CONSTRUCTORS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_PRIVATE_PROPERTY_OFFSET \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_SPARSE_DATA \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_CALLBACK_WRAPPERS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_INCLASS_NO_PURE_DECLS \
+	creativejam_Source_creativejam_DestructibleComponent_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

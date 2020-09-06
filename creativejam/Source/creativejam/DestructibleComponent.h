@@ -9,7 +9,8 @@
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnBeginFocus, class AcreativejamCharacter*, Character);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEndFocus, class AcreativejamCharacter*, Character);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnAttack, class AcreativejamCharacter*, Character);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnPunch, class AcreativejamCharacter*, Character);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnKick, class AcreativejamCharacter*, Character);
 /**
  * 
  */
@@ -30,12 +31,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Destructible")
 	FText DestructibleNameText;
 
-	UFUNCTION()
-	FText GetDestructibleNameText();
-
-	UFUNCTION()
-	int GetDestructibleLevel();
-
 	//[local + server] Called when the player presses the interact key whilst focusing on this interactable actor
 	UPROPERTY(EditDefaultsOnly, BlueprintAssignable)
 	FOnBeginFocus OnBeginFocus;
@@ -46,7 +41,10 @@ public:
 
 	//[local + server] Called when the player has interacted with the item for the required amount of time
 	UPROPERTY(EditDefaultsOnly, BlueprintAssignable)
-	FOnAttack OnAttack;
+	FOnPunch OnPunch;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintAssignable)
+	FOnKick OnKick;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float MaxHealth;
@@ -54,20 +52,23 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float CurrentHealth;
 
-	UFUNCTION(BlueprintPure, Category = "Health")
+	UFUNCTION(BlueprintCallable)
 	float GetRemainingHealth();
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Destructible")
 	int DestructibleLevel;
 
-	void SetHealth(float p_damage);
+	UFUNCTION(BlueprintCallable)
+	void SetHealth(float p_health);
 
 	void RefreshWidget();
 
 	void BeginFocus(class AcreativejamCharacter* Character);
 	void EndFocus(class AcreativejamCharacter* Character);
 
-	void OnGettingAttacked(class AcreativejamCharacter* Character);
+	void Punch(class AcreativejamCharacter* Character);
+
+	void Kick(class AcreativejamCharacter* Character);
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnDeath();

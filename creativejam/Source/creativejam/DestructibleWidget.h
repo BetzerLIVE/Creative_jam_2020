@@ -25,7 +25,7 @@ public:
 	void OnUpdateDestructibleWidget();
 
 	UPROPERTY(BlueprintReadOnly, Category = "Destructible", meta = (ExposeOnSpawn))
-	class UDestructibleComponent* OwningDestrucctibleComponent;
+	class UDestructibleComponent* OwningDestructibleComponent;
 
 
 };
