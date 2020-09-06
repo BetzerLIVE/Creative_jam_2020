@@ -230,8 +230,8 @@
 /I Runtime\MovieSceneTracks\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
-/I F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam
-/I F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Source
+/I "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam"
+/I "C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Source"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ThirdParty\PhysX3\PxShared\include
@@ -263,12 +263,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Source\creativejam\DestructibleWidget.cpp"
-/FI"F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h"
-/Fo"F:\PERFORCE\CreativeJam2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\DestructibleWidget.cpp.obj"
+/FI"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\creativejamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Source\creativejam\DestructibleWidget.cpp"
+/FI"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h"
+/Fo"C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\DestructibleWidget.cpp.obj"
 /TP
 /GR-
 /W4

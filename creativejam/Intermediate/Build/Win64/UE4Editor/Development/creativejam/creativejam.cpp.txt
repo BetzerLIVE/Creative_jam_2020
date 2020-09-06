@@ -1,0 +1,2 @@
+C:\Users\chris\Documents\GitKraken_gameJam2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h
+C:\Users\chris\Documents\GitKraken_gameJam2020\Creative_jam_2020\Creative_jam_2020\creativejam\Source\creativejam\creativejam.h

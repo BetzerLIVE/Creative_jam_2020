@@ -1,0 +1,5 @@
+C:\Users\chris\Documents\GitKraken_gameJam2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\chris\Documents\GitKraken_gameJam2020\Creative_jam_2020\Creative_jam_2020\creativejam\Source\creativejam/creativejamProjectile.h
+C:\Users\chris\Documents\GitKraken_gameJam2020\Creative_jam_2020\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamProjectile.generated.h
