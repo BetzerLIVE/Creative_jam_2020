@@ -1,0 +1,1265 @@
+﻿Log file open, 09/06/20 11:34:57
+LogInit: Display: Running engine for game: creativejam
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.244027
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/EpicGames/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+[2020.09.06-15.34.57:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.06-15.34.57:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+[2020.09.06-15.34.57:413][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+[2020.09.06-15.34.57:418][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.06-15.34.57:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.06-15.34.57:419][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.06-15.34.57:419][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.06-15.34.57:419][  0]LogHAL: Display: Platform has ~ 32 GB [34290896896 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.06-15.34.57:419][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.06-15.34.57:419][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.06-15.34.57:419][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:419][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.06-15.34.57:420][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:420][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Scalability.ini]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.06-15.34.57:421][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Config/Windows/Engine.ini]
+[2020.09.06-15.34.57:421][  0]LogInit: Computer: DESKTOP-0PVLLNN
+[2020.09.06-15.34.57:421][  0]LogInit: User: Nathanael
+[2020.09.06-15.34.57:421][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.06-15.34.57:421][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.06-15.34.57:421][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.09.06-15.34.57:421][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.06-15.34.57:421][  0]LogMemory: Process Physical Memory: 115.62 MB used, 115.63 MB peak
+[2020.09.06-15.34.57:421][  0]LogMemory: Process Virtual Memory: 105.50 MB used, 105.50 MB peak
+[2020.09.06-15.34.57:421][  0]LogMemory: Physical Memory: 10822.82 MB used,  21879.53 MB free, 32702.35 MB total
+[2020.09.06-15.34.57:421][  0]LogMemory: Virtual Memory: 5173.11 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.09.06-15.34.57:428][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.06-15.34.57:468][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.06-15.34.57:469][  0]LogInit: Using OS detected language (en-GB).
+[2020.09.06-15.34.57:469][  0]LogInit: Using OS detected locale (fr-CA).
+[2020.09.06-15.34.57:470][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.09.06-15.34.57:611][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.06-15.34.57:651][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.06-15.34.57:651][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.06-15.34.57:754][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.06-15.34.57:754][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.06-15.34.57:754][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.06-15.34.57:754][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.06-15.34.57:808][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2020.09.06-15.34.57:808][  0]LogD3D11RHI:       8079/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.06-15.34.57:811][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.06-15.34.57:811][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.06-15.34.57:811][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.06-15.34.57:819][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.06-15.34.57:819][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.06-15.34.57:819][  0]LogWindows: EnumDisplayDevices:
+[2020.09.06-15.34.57:819][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2020.09.06-15.34.57:820][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2020.09.06-15.34.57:820][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2020.09.06-15.34.57:820][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2020.09.06-15.34.57:821][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.06-15.34.57:821][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2020.09.06-15.34.57:821][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.09.06-15.34.57:821][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.09.06-15.34.57:821][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2020.09.06-15.34.57:859][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.06-15.34.57:861][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.06-15.34.57:861][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.06-15.34.57:861][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.06-15.34.57:883][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.09.06-15.34.58:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.06-15.34.58:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.06-15.34.58:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.06-15.34.58:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.06-15.34.58:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.06-15.34.58:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.06-15.34.58:234][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.06-15.34.58:242][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.06-15.34.58:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.06-15.34.58:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.06-15.34.58:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.06-15.34.58:290][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.06-15.34.58:290][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.06-15.34.58:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.06-15.34.58:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.06-15.34.58:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.06-15.34.58:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.06-15.34.58:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.06-15.34.58:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.06-15.34.58:337][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.06-15.34.58:347][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.06-15.34.58:415][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Intermediate/Shaders/WorkingDirectory/19360/).
+[2020.09.06-15.34.58:415][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nathanael/AppData/Local/Temp/UnrealShaderWorkingDir/27F9E515431C3676B65A13BC815EF4A3/'.
+[2020.09.06-15.34.58:415][  0]LogXGEController: Cleaning working directory: C:/Users/Nathanael/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.06-15.34.58:415][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.06-15.34.58:415][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.06-15.34.58:415][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.06-15.34.59:024][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.06-15.34.59:064][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/Nathanael/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.06-15.34.59:064][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nathanael/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.06-15.34.59:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.06-15.34.59:064][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.06-15.34.59:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.06-15.34.59:064][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.06-15.34.59:073][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.06-15.34.59:073][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.06-15.34.59:073][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.06-15.34.59:074][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nathanael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.06-15.34.59:074][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.06-15.34.59:074][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.06-15.34.59:117][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.06-15.34.59:117][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.06-15.34.59:138][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.09.06-15.34.59:329][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.06-15.34.59:432][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.06-15.34.59:432][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.06-15.34.59:432][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.06-15.34.59:432][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.06-15.34.59:432][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.06-15.34.59:446][  0]LogNetVersion: creativejam 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 807201128)
+[2020.09.06-15.34.59:802][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019723A89400), frame # 0
+[2020.09.06-15.34.59:802][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000197239B7D80), frame # 0
+[2020.09.06-15.34.59:803][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019723A21E00), frame # 0
+[2020.09.06-15.34.59:849][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.041477 seconds
+[2020.09.06-15.34.59:855][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.06-15.34.59:855][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.06-15.34.59:855][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.06-15.35.00:205][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.06-15.35.00:209][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.06-15.35.00:257][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset': Can't find file.
+[2020.09.06-15.35.00:257][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset': Can't find file.
+[2020.09.06-15.35.00:257][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_Skeleton': Can't find file.
+[2020.09.06-15.35.00:257][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_Skeleton': Can't find file.
+[2020.09.06-15.35.00:257][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset': Can't find file.
+[2020.09.06-15.35.00:258][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset': Can't find file.
+[2020.09.06-15.35.00:258][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_Skeleton': Can't find file.
+[2020.09.06-15.35.00:258][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_Skeleton': Can't find file.
+[2020.09.06-15.35.00:265][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "DestructibleCheckDistance" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get DestructibleCheckDistance
+[2020.09.06-15.35.00:265][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "DestructibleCheckDistance" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set DestructibleCheckDistance
+[2020.09.06-15.35.00:266][  0]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  DestructibleCheckDistance  could not be found in '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.09.06-15.35.00:267][  0]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  DestructibleCheckDistance  could not be found in '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.09.06-15.35.00:271][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_Skeleton': Can't find file.
+[2020.09.06-15.35.00:271][  0]LoadErrors: Failed to load /Game/RiggedBaby_Assets/RiggedBaby_Skeleton.RiggedBaby_Skeleton Referenced by RiggedBaby
+[2020.09.06-15.35.00:271][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_Skeleton': Can't find file.
+[2020.09.06-15.35.00:271][  0]LoadErrors: Failed to load /Game/RiggedBaby_Assets/RiggedBaby_Skeleton.RiggedBaby_Skeleton Referenced by RiggedBaby
+[2020.09.06-15.35.00:271][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset': Can't find file.
+[2020.09.06-15.35.00:271][  0]LoadErrors: Failed to load /Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset.RiggedBaby_PhysicsAsset Referenced by RiggedBaby
+[2020.09.06-15.35.00:271][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/RiggedBaby_Assets/RiggedBaby.uasset' failed to load '/Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset': Can't find file.
+[2020.09.06-15.35.00:271][  0]LoadErrors: Failed to load /Game/RiggedBaby_Assets/RiggedBaby_PhysicsAsset.RiggedBaby_PhysicsAsset Referenced by RiggedBaby
+[2020.09.06-15.35.00:350][  0]SourceControl: Source control is disabled
+[2020.09.06-15.35.00:350][  0]SourceControl: Source control is disabled
+[2020.09.06-15.35.00:354][  0]SourceControl: Source control is disabled
+[2020.09.06-15.35.00:358][  0]SourceControl: Source control is disabled
+[2020.09.06-15.35.00:366][  0]SourceControl: Source control is disabled
+[2020.09.06-15.35.00:612][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.06-15.35.00:634][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.06-15.35.00:634][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.06-15.35.00:681][  0]LogOcInput: OculusInput pre-init called
+[2020.09.06-15.35.00:691][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.06-15.35.00:691][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.06-15.35.00:746][  0]LogEngine: Initializing Engine...
+[2020.09.06-15.35.00:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.06-15.35.00:747][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.06-15.35.00:747][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.06-15.35.00:835][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.06-15.35.00:841][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.06-15.35.00:841][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001972AED1C00), frame # 0
+[2020.09.06-15.35.00:842][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001972AEF20C0), frame # 0
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.06-15.35.00:858][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.06-15.35.00:858][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.06-15.35.00:858][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.06-15.35.00:911][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.06-15.35.00:911][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.06-15.35.00:960][  0]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2020.09.06-15.35.00:962][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.06-15.35.00:964][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.06-15.35.00:964][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.06-15.35.00:965][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.06-15.35.00:965][  0]LogInit: FAudioDevice initialized.
+[2020.09.06-15.35.00:965][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.06-15.35.01:001][  0]LogDerivedDataCache: Saved boot cache 0.04s 78MB C:/Users/Nathanael/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.06-15.35.01:006][  0]LogInit: Texture streaming: Enabled
+[2020.09.06-15.35.01:024][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.06-15.35.01:024][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.06-15.35.01:026][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.06-15.35.01:074][  0]LogInit: Transaction tracking system initialized
+[2020.09.06-15.35.01:097][  0]BlueprintLog: New page: Editor Load
+[2020.09.06-15.35.01:169][  0]LocalizationService: Localization service is disabled
+[2020.09.06-15.35.01:306][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.06-15.35.01:306][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.06-15.35.01:445][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/' took 0.01s
+[2020.09.06-15.35.01:611][  0]SourceControl: Source control is disabled
+[2020.09.06-15.35.01:612][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.389
+[2020.09.06-15.35.01:612][  0]Cmd: MAP LOAD FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.06-15.35.01:612][  0]LightingResults: New page: Lighting Build
+[2020.09.06-15.35.01:612][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.35.01:612][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.35.01:612][  0]MapCheck: New page: Map Check
+[2020.09.06-15.35.01:612][  0]LightingResults: New page: Lighting Build
+[2020.09.06-15.35.01:622][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001972AED1C00), frame # 0
+[2020.09.06-15.35.01:622][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001972AEF20C0), frame # 0
+[2020.09.06-15.35.01:623][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.09.06-15.35.01:625][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap' failed to load '/Game/BP/BP_creativejamGameMode': Can't find file.
+[2020.09.06-15.35.01:625][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap' failed to load '/Game/BP/BP_creativejamGameMode': Can't find file.
+[2020.09.06-15.35.01:625][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap' failed to load '/Game/BP/BP_creativejamGameMode': Can't find file.
+[2020.09.06-15.35.01:625][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap' failed to load '/Game/BP/BP_creativejamGameMode': Can't find file.
+[2020.09.06-15.35.01:626][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap' failed to load '/Game/BP/BP_creativejamGameMode': Can't find file.
+[2020.09.06-15.35.01:626][  0]LoadErrors: Failed to load /Game/BP/BP_creativejamGameMode.BP_creativejamGameMode_C Referenced by WorldSettings
+[2020.09.06-15.35.01:626][  0]LogLinker: Warning: While loading 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap' failed to load '/Game/BP/BP_creativejamGameMode': Can't find file.
+[2020.09.06-15.35.01:626][  0]LoadErrors: Failed to load /Game/BP/BP_creativejamGameMode.BP_creativejamGameMode_C Referenced by WorldSettings
+[2020.09.06-15.35.01:627][  0]LogAIModule: Creating AISystem for world MASTER_Lv
+[2020.09.06-15.35.01:627][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001972AA48E00), frame # 0
+[2020.09.06-15.35.01:627][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001972AA4C900), frame # 0
+[2020.09.06-15.35.01:628][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.06-15.35.01:638][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.09.06-15.35.01:638][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.06-15.35.01:638][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,099ms to complete.
+[2020.09.06-15.35.01:638][  0]LogFileHelpers: Loading map 'MASTER_Lv' took 0.026
+[2020.09.06-15.35.01:640][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.416
+[2020.09.06-15.35.01:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.35.01:769][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.35.01:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.35.01:781][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.35.01:786][  0]LogCollectionManager: Loaded 0 collections in 0.000610 seconds
+[2020.09.06-15.35.01:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Collections/' took 0.00s
+[2020.09.06-15.35.01:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Developers/Nathanael/Collections/' took 0.00s
+[2020.09.06-15.35.01:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Collections/' took 0.00s
+[2020.09.06-15.35.01:798][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3433 classes and 823 folders.
+[2020.09.06-15.35.01:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.06-15.35.01:836][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.06-15.35.01:839][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.09.06-15.35.01:876][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.06-15.35.01:878][  0]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.06-15.35.01:881][  0]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.06-15.35.01:940][  0]LogRenderer: Reallocating scene render targets to support 1208x608 Format 10 NumSamples 1 (Frame:1).
+[2020.09.06-15.35.02:006][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.06-15.35.02:006][  0]LogLoad: (Engine Initialization) Total time: 5.78 seconds
+[2020.09.06-15.35.02:006][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.06-15.35.02:039][  0]LogAssetRegistry: Asset discovery search completed in 2.9025 seconds
+[2020.09.06-15.35.02:043][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.06-15.35.02:044][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.06-15.35.02:129][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.06-15.35.02:135][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/' took 0.12s
+[2020.09.06-15.35.04:348][261]LogSlate: Window 'Message Log' being destroyed
+[2020.09.06-15.35.04:352][261]LogSlate: Window 'Message Log' being destroyed
+[2020.09.06-15.35.05:028][341]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.06-15.36.21:588][685]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.36.21:761][685]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.09.06-15.36.22:475][685]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.06-15.36.24:090][864]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.06-15.36.29:240][295]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.36.29:243][295]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "DestructibleCheckDistance" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get DestructibleCheckDistance
+[2020.09.06-15.36.29:243][295]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "DestructibleCheckDistance" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set DestructibleCheckDistance
+[2020.09.06-15.36.29:244][295]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  Destructible Check Distance  could not be found in '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.09.06-15.36.29:244][295]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  Destructible Check Distance  could not be found in '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.09.06-15.36.29:288][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.09.06-15.37.29:813][  8]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.37.29:816][  8]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "DestructibleCheckDistance" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get DestructibleCheckDistance
+[2020.09.06-15.37.29:816][  8]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "DestructibleCheckDistance" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set DestructibleCheckDistance
+[2020.09.06-15.37.29:818][  8]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  Destructible Check Distance  could not be found in '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.09.06-15.37.29:818][  8]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  Destructible Check Distance  could not be found in '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.09.06-15.37.29:868][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.09.06-15.37.32:449][200]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2020.09.06-15.37.32:456][200]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2020.09.06-15.37.32:456][200]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.37.32:457][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.37.34:173][397]AssetReimport: New page: Outstanding source content changes 07 h 37 min 34 s
+[2020.09.06-15.37.34:175][397]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_AO.png)
+[2020.09.06-15.37.34:444][398]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_BC.png)
+[2020.09.06-15.37.34:678][399]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_H.png)
+[2020.09.06-15.37.34:877][400]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_M.png)
+[2020.09.06-15.37.35:035][401]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_N.png)
+[2020.09.06-15.37.35:260][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_R.png)
+[2020.09.06-15.37.35:478][403]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_AO.png)
+[2020.09.06-15.37.35:629][404]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_BC.png)
+[2020.09.06-15.37.35:967][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_H.png)
+[2020.09.06-15.37.36:144][406]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_M.png)
+[2020.09.06-15.37.36:288][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_N.png)
+[2020.09.06-15.37.36:425][408]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_R.png)
+[2020.09.06-15.37.36:563][409]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_AO.png)
+[2020.09.06-15.37.36:705][410]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_BC.png)
+[2020.09.06-15.37.36:929][411]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_H.png)
+[2020.09.06-15.37.37:022][412]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_M.png)
+[2020.09.06-15.37.37:065][413]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_N.png)
+[2020.09.06-15.37.37:212][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_R.png)
+[2020.09.06-15.37.37:417][415]LogEditorFactories: Performing atomic reimport of [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.fbx]
+[2020.09.06-15.37.37:426][415]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.fbx
+[2020.09.06-15.37.37:434][415]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-15.37.37:457][415]LogStaticMesh: Building static mesh SM_Car...
+[2020.09.06-15.37.37:515][415]LogStaticMesh: Built static mesh [0.06s] /Engine/Transient.SM_Car
+[2020.09.06-15.37.37:814][415]LogStaticMesh: Building static mesh SM_Car...
+[2020.09.06-15.37.37:862][415]LogStaticMesh: Built static mesh [0.05s] /Game/Geometry/FBX/SM_Car.SM_Car
+[2020.09.06-15.37.44:840][415]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.09.06-15.37.44:845][415]LogEditorFactories: -- imported successfully
+[2020.09.06-15.37.44:877][416]LogEditorFactories: Performing atomic reimport of [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_FlowerPot.fbx]
+[2020.09.06-15.37.44:887][416]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_FlowerPot.fbx
+[2020.09.06-15.37.44:892][416]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-15.37.44:897][416]LogStaticMesh: Building static mesh SM_FlowerPot...
+[2020.09.06-15.37.44:908][416]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.SM_FlowerPot
+[2020.09.06-15.37.44:955][416]LogStaticMesh: Building static mesh SM_FlowerPot...
+[2020.09.06-15.37.44:973][416]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/FBX/SM_FlowerPot.SM_FlowerPot
+[2020.09.06-15.37.45:805][416]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.09.06-15.37.45:810][416]LogEditorFactories: -- imported successfully
+[2020.09.06-15.37.45:843][417]LogEditorFactories: Performing atomic reimport of [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_L_Building_A.fbx]
+[2020.09.06-15.37.45:849][417]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_L_Building_A.fbx
+[2020.09.06-15.37.45:855][417]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-15.37.45:866][417]LogStaticMesh: Building static mesh SM_L_Building_A...
+[2020.09.06-15.37.45:911][417]LogStaticMesh: Built static mesh [0.04s] /Engine/Transient.SM_L_Building_A
+[2020.09.06-15.37.46:025][417]LogStaticMesh: Building static mesh SM_L_Building_A...
+[2020.09.06-15.37.46:062][417]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/FBX/SM_L_Building_A.SM_L_Building_A
+[2020.09.06-15.37.46:497][417]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.09.06-15.37.46:502][417]LogEditorFactories: -- imported successfully
+[2020.09.06-15.37.46:526][418]LogEditorFactories: Performing atomic reimport of [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_A.fbx]
+[2020.09.06-15.37.46:535][418]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_A.fbx
+[2020.09.06-15.37.46:543][418]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-15.37.46:557][418]LogStaticMesh: Building static mesh SM_M_Building_A...
+[2020.09.06-15.37.46:597][418]LogStaticMesh: Built static mesh [0.04s] /Engine/Transient.SM_M_Building_A
+[2020.09.06-15.37.46:719][418]LogStaticMesh: Building static mesh SM_M_Building_A...
+[2020.09.06-15.37.46:752][418]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/FBX/SM_M_Building_A.SM_M_Building_A
+[2020.09.06-15.37.47:163][418]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.09.06-15.37.47:169][418]LogEditorFactories: -- imported successfully
+[2020.09.06-15.37.47:193][419]LogEditorFactories: Performing atomic reimport of [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_B.fbx]
+[2020.09.06-15.37.47:204][419]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_B.fbx
+[2020.09.06-15.37.47:211][419]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-15.37.47:234][419]LogStaticMesh: Building static mesh SM_M_Building_B...
+[2020.09.06-15.37.47:322][419]LogStaticMesh: Built static mesh [0.09s] /Engine/Transient.SM_M_Building_B
+[2020.09.06-15.37.47:527][419]LogStaticMesh: Building static mesh SM_M_Building_B...
+[2020.09.06-15.37.47:591][419]LogStaticMesh: Built static mesh [0.06s] /Game/Geometry/FBX/SM_M_Building_B.SM_M_Building_B
+[2020.09.06-15.37.48:061][419]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.09.06-15.37.48:066][419]LogEditorFactories: -- imported successfully
+[2020.09.06-15.37.48:091][420]LogEditorFactories: Performing atomic reimport of [C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_S_Building_B.fbx]
+[2020.09.06-15.37.48:097][420]LogFbx: Loading FBX Scene from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_S_Building_B.fbx
+[2020.09.06-15.37.48:102][420]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.06-15.37.48:106][420]LogStaticMesh: Building static mesh SM_S_Building_B...
+[2020.09.06-15.37.48:116][420]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.SM_S_Building_B
+[2020.09.06-15.37.48:158][420]LogStaticMesh: Building static mesh SM_S_Building_B...
+[2020.09.06-15.37.48:170][420]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/FBX/SM_S_Building_B.SM_S_Building_B
+[2020.09.06-15.37.48:838][420]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.09.06-15.37.48:843][420]LogEditorFactories: -- imported successfully
+[2020.09.06-15.37.48:939][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Metal_AO6FC3E9A241C793D9584F3D87AC0EAAE1.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_AO.uasset'
+[2020.09.06-15.37.49:024][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Metal_BC9EF9C31C4B83C7C451D3F0AB9D2FB638.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_BC.uasset'
+[2020.09.06-15.37.49:059][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Metal_H22991BEA4E9F8FC769D66A8B70BC94FB.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_H.uasset'
+[2020.09.06-15.37.49:086][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Metal_MF6E584B54D6591D7C1800F8F73315B43.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_M.uasset'
+[2020.09.06-15.37.49:178][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Metal_N95A6AD0B4D73B905990BA194FA115200.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_N.uasset'
+[2020.09.06-15.37.49:216][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Metal_R322F254D4D6039CA7E81FDAF93837110.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Metal_R.uasset'
+[2020.09.06-15.37.49:290][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_RoofTiles_AO3C9D2AA148483BB1AE9EFF983E10EC05.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_AO.uasset'
+[2020.09.06-15.37.49:388][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_RoofTiles_BCE4D41C8A45318CC2098C40BD8E70F7ED.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_BC.uasset'
+[2020.09.06-15.37.49:457][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_RoofTiles_H6B6EA610440AA14043D932A465C8E875.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_H.uasset'
+[2020.09.06-15.37.49:478][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_RoofTiles_M42E744A44F1C5C1DAE1229A9C26853AE.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_M.uasset'
+[2020.09.06-15.37.49:568][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_RoofTiles_N5EDB199C41A1358BB854E89051F92AE4.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_N.uasset'
+[2020.09.06-15.37.49:636][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_RoofTiles_R3F68FCEB4FCF641F1E2AD9A373A85E57.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_RoofTiles_R.uasset'
+[2020.09.06-15.37.49:720][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Wood_AO86E490244C6357AC35BD0380042B217F.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_AO.uasset'
+[2020.09.06-15.37.49:895][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Wood_BC87441131471DDD110937CFAC7F51A078.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_BC.uasset'
+[2020.09.06-15.37.49:976][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Wood_H1F7E038841174B5B67FF3B87888D5B57.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_H.uasset'
+[2020.09.06-15.37.49:990][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Wood_M7758E0CE462E52DBCAFB83B5FF7EBB07.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_M.uasset'
+[2020.09.06-15.37.50:098][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Wood_N3857071E40DB29E21E37298DCC991D21.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_N.uasset'
+[2020.09.06-15.37.50:199][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/T_Wood_R972F23A1445BFA4F104ABD8638458615.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Materials/Texture/T_Wood_R.uasset'
+[2020.09.06-15.37.50:217][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/FBX/SM_Car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.uasset" SILENT=true
+[2020.09.06-15.37.50:246][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_Car61808121454BB875E162489A474DC36B.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.uasset'
+[2020.09.06-15.37.50:280][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_FlowerPot11EF18EF4F14E04F1ACD4B99A8A5BC04.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_FlowerPot.uasset'
+[2020.09.06-15.37.50:314][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_L_Building_AF992579C4807969A40A01EA9E4C734FF.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_L_Building_A.uasset'
+[2020.09.06-15.37.50:350][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_M_Building_AA534BCE049452E97B35963AE5A493A77.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_A.uasset'
+[2020.09.06-15.37.50:390][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_M_Building_BAFE024B64F9CE2758E107EA7514A2C42.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_B.uasset'
+[2020.09.06-15.37.50:422][421]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/SM_S_Building_B42FD94CF4A1FDE0622E61BB4569C7F84.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_S_Building_B.uasset'
+[2020.09.06-15.37.50:561][422]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Metal_AO.T_Metal_AO
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Metal_BC.T_Metal_BC
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Metal_H.T_Metal_H
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Metal_M.T_Metal_M
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Metal_N.T_Metal_N
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Metal_R.T_Metal_R
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_RoofTiles_AO.T_RoofTiles_AO
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_RoofTiles_BC.T_RoofTiles_BC
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_RoofTiles_H.T_RoofTiles_H
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_RoofTiles_M.T_RoofTiles_M
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_RoofTiles_N.T_RoofTiles_N
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_RoofTiles_R.T_RoofTiles_R
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Wood_AO.T_Wood_AO
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Wood_BC.T_Wood_BC
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Wood_H.T_Wood_H
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Wood_M.T_Wood_M
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Wood_N.T_Wood_N
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating Texture2D /Game/Materials/Texture/T_Wood_R.T_Wood_R
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_Car.SM_Car
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_FlowerPot.SM_FlowerPot
+[2020.09.06-15.37.50:561][422]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_L_Building_A.SM_L_Building_A
+[2020.09.06-15.37.50:562][422]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_M_Building_A.SM_M_Building_A
+[2020.09.06-15.37.50:562][422]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_M_Building_B.SM_M_Building_B
+[2020.09.06-15.37.50:562][422]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/FBX/SM_S_Building_B.SM_S_Building_B
+[2020.09.06-15.37.52:543][653]Candidate modules for hot reload:
+[2020.09.06-15.37.52:543][653]  creativejam
+[2020.09.06-15.37.52:543][653]Launching UnrealBuildTool... [E:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=creativejam,7034 creativejamEditor Win64 Development -Project="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/creativejam.uproject" "C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/creativejam.uproject"  -IgnoreJunk]
+[2020.09.06-15.37.52:550][653]Warning: Starting HotReload took  0.0s.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Metal_AO.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Metal_BC.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Metal_H.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Metal_M.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Metal_N.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Metal_R.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_RoofTiles_AO.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_RoofTiles_BC.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_RoofTiles_H.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_RoofTiles_M.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_RoofTiles_N.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_RoofTiles_R.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Wood_AO.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Wood_BC.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Wood_H.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Wood_M.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Wood_N.
+[2020.09.06-15.37.53:433][712]AssetReimport: Importing new asset /Game/Materials/Texture/T_Wood_R.
+[2020.09.06-15.37.53:433][712]AssetReimport: Reimported asset SM_Car from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_Car.fbx.
+[2020.09.06-15.37.53:433][712]AssetReimport: Reimported asset SM_FlowerPot from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_FlowerPot.fbx.
+[2020.09.06-15.37.53:433][712]AssetReimport: Reimported asset SM_L_Building_A from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_L_Building_A.fbx.
+[2020.09.06-15.37.53:433][712]AssetReimport: Reimported asset SM_M_Building_A from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_A.fbx.
+[2020.09.06-15.37.53:433][712]AssetReimport: Reimported asset SM_M_Building_B from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_M_Building_B.fbx.
+[2020.09.06-15.37.53:433][712]AssetReimport: Reimported asset SM_S_Building_B from C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Geometry/FBX/SM_S_Building_B.fbx.
+[2020.09.06-15.37.54:192][804]CompilerResultsLog: New page: Compilation - 6 sept. 2020 07 h 37 min 54 s
+[2020.09.06-15.37.54:192][804]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020).
+[2020.09.06-15.37.54:192][804]CompilerResultsLog: Building creativejamEditor...
+[2020.09.06-15.37.54:192][804]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.06-15.37.54:192][804]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.09.06-15.37.54:192][804]CompilerResultsLog:   [1/3] UE4Editor-creativejam-7034.lib
+[2020.09.06-15.37.54:192][804]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-7034.lib et de l'objet C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-7034.exp
+[2020.09.06-15.37.54:192][804]CompilerResultsLog:   [2/3] UE4Editor-creativejam-7034.dll
+[2020.09.06-15.37.54:192][804]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-7034.suppressed.lib et de l'objet C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\New folder\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\UE4Editor-creativejam-7034.suppressed.exp
+[2020.09.06-15.37.54:192][804]CompilerResultsLog:   [3/3] creativejamEditor.target
+[2020.09.06-15.37.54:192][804]CompilerResultsLog: Total time in Parallel executor: 0,85 seconds
+[2020.09.06-15.37.54:192][804]CompilerResultsLog: Total execution time: 1,55 seconds
+[2020.09.06-15.37.54:192][804]LogMainFrame: MainFrame: Module compiling took 1.652 seconds
+[2020.09.06-15.37.54:246][804]LogClass: Could not find existing class creativejamCharacter in package /Script/creativejam for HotReload, assuming new class
+[2020.09.06-15.37.54:246][804]LogClass: Function SetKickSpeed is new.
+[2020.09.06-15.37.54:246][804]LogClass: Function SetPunchSpeed is new.
+[2020.09.06-15.37.54:251][804]LogClass: DestructibleData HotReload.
+[2020.09.06-15.37.54:257][804]LogHotReload: Re-instancing creativejamCharacter after hot-reload.
+[2020.09.06-15.37.54:290][804]LogContentBrowser: Native class hierarchy updated for 'creativejam' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2020.09.06-15.37.54:292][804]Display: HotReload successful (4 functions remapped  1 scriptstructs remapped)
+[2020.09.06-15.37.54:353][804]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3433 classes and 823 folders.
+[2020.09.06-15.37.54:353][804]Display: HotReload took  1.8s.
+[2020.09.06-15.38.06:816][248]LogLinker: Error: HOTRELOADED_DestructibleComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/WBP_DestructibleCard.uasset)
+[2020.09.06-15.38.06:816][248]LogLinker: Error: HOTRELOADED_DestructibleComponent_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/WBP_DestructibleCard.uasset)
+[2020.09.06-15.38.06:847][248]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_FlowerPot.BP_FlowerPot
+[2020.09.06-15.38.08:631][394]BlueprintLog: New page: Compile BP_FlowerPot
+[2020.09.06-15.38.08:701][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.09.06-15.38.09:200][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_FlowerPot" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FlowerPot.uasset" SILENT=true
+[2020.09.06-15.38.09:224][442]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_FlowerPotA7B42F0D48B2EA39124B9C9EB7052009.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FlowerPot.uasset'
+[2020.09.06-15.38.09:234][442]AssetCheck: New page: Asset Save: BP_FlowerPot
+[2020.09.06-15.38.09:234][442]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_FlowerPot.BP_FlowerPot
+[2020.09.06-15.38.10:011][523]LogSlate: Window 'BP_FlowerPot' being destroyed
+[2020.09.06-15.38.10:014][523]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.10:014][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.11:164][634]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Lbuilding.BP_Lbuilding
+[2020.09.06-15.38.12:512][739]BlueprintLog: New page: Compile BP_Lbuilding
+[2020.09.06-15.38.12:561][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.09.06-15.38.13:284][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Lbuilding" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Lbuilding.uasset" SILENT=true
+[2020.09.06-15.38.13:308][815]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_Lbuilding2E9BE9A3426CD0BBDF5399B7EFAEC04E.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Lbuilding.uasset'
+[2020.09.06-15.38.13:319][815]AssetCheck: New page: Asset Save: BP_Lbuilding
+[2020.09.06-15.38.13:319][815]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Lbuilding.BP_Lbuilding
+[2020.09.06-15.38.20:412][616]LogSlate: Window 'BP_Lbuilding' being destroyed
+[2020.09.06-15.38.20:430][616]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.20:431][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.21:876][776]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_LightPole.BP_LightPole
+[2020.09.06-15.38.24:884][ 46]BlueprintLog: New page: Compile BP_LightPole
+[2020.09.06-15.38.24:914][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.09.06-15.38.25:301][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_LightPole" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LightPole.uasset" SILENT=true
+[2020.09.06-15.38.25:332][ 84]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_LightPole1DEC4CE64C1A3F63A1206BB3A66D4D2E.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LightPole.uasset'
+[2020.09.06-15.38.25:342][ 84]AssetCheck: New page: Asset Save: BP_LightPole
+[2020.09.06-15.38.25:342][ 84]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_LightPole.BP_LightPole
+[2020.09.06-15.38.26:217][184]LogSlate: Window 'BP_LightPole' being destroyed
+[2020.09.06-15.38.26:220][184]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.26:220][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.27:179][283]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_MHouse1.BP_MHouse1
+[2020.09.06-15.38.29:000][445]BlueprintLog: New page: Compile BP_MHouse1
+[2020.09.06-15.38.29:032][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.09.06-15.38.29:500][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_MHouse1" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_MHouse1.uasset" SILENT=true
+[2020.09.06-15.38.29:523][491]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_MHouse19A2F1156426A2E48CEA7DE89B2865448.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_MHouse1.uasset'
+[2020.09.06-15.38.29:534][491]AssetCheck: New page: Asset Save: BP_MHouse1
+[2020.09.06-15.38.29:534][491]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_MHouse1.BP_MHouse1
+[2020.09.06-15.38.30:443][592]LogSlate: Window 'BP_MHouse1' being destroyed
+[2020.09.06-15.38.30:447][592]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.30:447][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.31:627][719]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Mhouse2.BP_Mhouse2
+[2020.09.06-15.38.33:265][842]BlueprintLog: New page: Compile BP_Mhouse2
+[2020.09.06-15.38.33:296][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.09.06-15.38.33:683][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Mhouse2" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Mhouse2.uasset" SILENT=true
+[2020.09.06-15.38.33:708][879]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_Mhouse27FBC63484750CEFCAA0EEA96DA6FF10C.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Mhouse2.uasset'
+[2020.09.06-15.38.33:720][879]AssetCheck: New page: Asset Save: BP_Mhouse2
+[2020.09.06-15.38.33:720][879]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Mhouse2.BP_Mhouse2
+[2020.09.06-15.38.34:468][961]LogSlate: Window 'BP_Mhouse2' being destroyed
+[2020.09.06-15.38.34:486][961]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.34:486][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.35:776][105]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_SHouse1.BP_SHouse1
+[2020.09.06-15.38.37:066][201]BlueprintLog: New page: Compile BP_SHouse1
+[2020.09.06-15.38.37:104][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.09.06-15.38.37:515][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SHouse1" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_SHouse1.uasset" SILENT=true
+[2020.09.06-15.38.37:543][240]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_SHouse12A040915484CCF4624B6719F0DF5A982.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_SHouse1.uasset'
+[2020.09.06-15.38.37:554][240]AssetCheck: New page: Asset Save: BP_SHouse1
+[2020.09.06-15.38.37:554][240]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SHouse1.BP_SHouse1
+[2020.09.06-15.38.38:259][317]LogSlate: Window 'BP_SHouse1' being destroyed
+[2020.09.06-15.38.38:263][317]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.38:263][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.39:328][435]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_SHouse2.BP_SHouse2
+[2020.09.06-15.38.40:560][524]BlueprintLog: New page: Compile BP_SHouse2
+[2020.09.06-15.38.40:590][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.09.06-15.38.40:998][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SHouse2" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_SHouse2.uasset" SILENT=true
+[2020.09.06-15.38.41:023][563]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_SHouse2A73CE40B4E3E89CEF0813BB66E738A0D.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_SHouse2.uasset'
+[2020.09.06-15.38.41:034][563]AssetCheck: New page: Asset Save: BP_SHouse2
+[2020.09.06-15.38.41:034][563]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SHouse2.BP_SHouse2
+[2020.09.06-15.38.41:806][646]LogSlate: Window 'BP_SHouse2' being destroyed
+[2020.09.06-15.38.41:810][646]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.41:810][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.42:791][755]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Trash.BP_Trash
+[2020.09.06-15.38.43:834][828]BlueprintLog: New page: Compile BP_Trash
+[2020.09.06-15.38.43:864][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.09.06-15.38.44:298][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Trash" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Trash.uasset" SILENT=true
+[2020.09.06-15.38.44:322][868]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_Trash60BB92624A1A289270DEAC8EA652625F.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Trash.uasset'
+[2020.09.06-15.38.44:332][868]AssetCheck: New page: Asset Save: BP_Trash
+[2020.09.06-15.38.44:333][868]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Trash.BP_Trash
+[2020.09.06-15.38.45:102][950]LogSlate: Window 'BP_Trash' being destroyed
+[2020.09.06-15.38.45:106][950]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.45:106][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.46:026][ 50]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Tree.BP_Tree
+[2020.09.06-15.38.47:351][159]BlueprintLog: New page: Compile BP_Tree
+[2020.09.06-15.38.47:382][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.09.06-15.38.47:799][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Tree" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Tree.uasset" SILENT=true
+[2020.09.06-15.38.47:826][201]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_TreeAF7A4336400E023B82048298A001755F.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Tree.uasset'
+[2020.09.06-15.38.47:837][201]AssetCheck: New page: Asset Save: BP_Tree
+[2020.09.06-15.38.47:837][201]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Tree.BP_Tree
+[2020.09.06-15.38.48:491][273]LogSlate: Window 'BP_Tree' being destroyed
+[2020.09.06-15.38.48:495][273]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.48:495][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.49:476][381]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Tree_2.BP_Tree_2
+[2020.09.06-15.38.50:547][466]BlueprintLog: New page: Compile BP_Tree_2
+[2020.09.06-15.38.50:578][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.09.06-15.38.51:015][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Tree_2" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Tree_2.uasset" SILENT=true
+[2020.09.06-15.38.51:044][510]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_Tree_2DEB7424646FAD81A9F2A46A3927670AA.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Tree_2.uasset'
+[2020.09.06-15.38.51:053][510]AssetCheck: New page: Asset Save: BP_Tree_2
+[2020.09.06-15.38.51:053][510]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Tree_2.BP_Tree_2
+[2020.09.06-15.38.52:079][626]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.52:079][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.58:828][400]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.09.06-15.38.58:846][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.09.06-15.38.58:847][400]LightingResults: New page: Lighting Build
+[2020.09.06-15.38.58:847][400]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2020.09.06-15.38.58:848][400]LogWorld: UWorld::CleanupWorld for MASTER_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.38.58:848][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.38.58:848][400]MapCheck: New page: Map Check
+[2020.09.06-15.38.58:848][400]LightingResults: New page: Lighting Build
+[2020.09.06-15.38.58:861][400]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001972AA4C900), frame # 10400
+[2020.09.06-15.38.58:861][400]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001972AA48E00), frame # 10400
+[2020.09.06-15.38.58:862][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.09.06-15.38.58:917][400]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.06-15.38.58:918][400]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-15.38.58:918][400]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000197900A0400), frame # 10400
+[2020.09.06-15.38.58:918][400]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001975BB57D80), frame # 10400
+[2020.09.06-15.38.58:937][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.09.06-15.38.58:965][400]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.06-15.38.58:965][400]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,108ms to complete.
+[2020.09.06-15.38.58:966][400]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.119
+[2020.09.06-15.42.16:615][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.09.06-15.42.30:738][ 15]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.42.54:713][722]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.42.54:741][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.09.06-15.42.55:444][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.42.55:460][792]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchE4F4E52D461B4EAD8DD7AFB9CA14D13B.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.42.55:471][792]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.42.55:471][792]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.05:004][800]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.43.05:053][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.09.06-15.43.05:644][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.43.05:669][856]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchA2CF6D4C493F0742C4B80C97701C96CE.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.43.05:679][856]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.43.05:679][856]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.12:687][671]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.43.12:724][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.09.06-15.43.13:426][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.43.13:447][738]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchFFC867DC4BF49C90ABE2A3BC8C602A81.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.43.13:458][738]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.43.13:458][738]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.31:632][817]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.43.31:667][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.09.06-15.43.32:210][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.43.32:232][866]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_Bench529929BB45DBE2C4327667AEE5152A0E.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.43.32:243][866]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.43.32:243][866]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.43.34:949][176]LogSlate: Window 'BP_Bench' being destroyed
+[2020.09.06-15.43.34:967][176]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.43.34:967][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.43.42:317][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.09.06-15.44.02:967][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.09.06-15.44.02:972][390]LogMetaData: Removing '/Game/BP/BP_car.SKEL_BP_car_C' ref from Metadata '/Game/BP/BP_Bench1.PackageMetaData'
+[2020.09.06-15.44.02:972][390]LogMetaData: Removing '/Game/BP/BP_car.BP_car_C' ref from Metadata '/Game/BP/BP_Bench1.PackageMetaData'
+[2020.09.06-15.44.03:015][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset" SILENT=true
+[2020.09.06-15.44.03:033][390]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_car6FA32D8D492CFF12E63714BB1F7C2F7C.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset'
+[2020.09.06-15.44.03:147][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.09.06-15.44.03:164][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.06-15.44.03:176][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.09.06-15.44.03:203][390]AssetCheck: New page: Asset Save: BP_car
+[2020.09.06-15.44.03:203][390]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.04:386][527]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.29:826][222]BlueprintLog: New page: Compile BP_car
+[2020.09.06-15.44.29:857][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.09.06-15.44.30:392][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset" SILENT=true
+[2020.09.06-15.44.30:417][276]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_car04B88641409CCADD770518A7CEE6F6AF.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset'
+[2020.09.06-15.44.30:429][276]AssetCheck: New page: Asset Save: BP_car
+[2020.09.06-15.44.30:429][276]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.32:471][510]LogSlate: Window 'BP_car' being destroyed
+[2020.09.06-15.44.32:488][510]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.44.32:489][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.44.33:835][647]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.44.39:150][216]BlueprintLog: New page: Compile BP_Bench
+[2020.09.06-15.44.39:180][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.09.06-15.44.39:726][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Bench" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset" SILENT=true
+[2020.09.06-15.44.39:746][269]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_BenchCC8A00594EA65561C22F0A87AB4268FF.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_Bench.uasset'
+[2020.09.06-15.44.39:757][269]AssetCheck: New page: Asset Save: BP_Bench
+[2020.09.06-15.44.39:757][269]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_Bench.BP_Bench
+[2020.09.06-15.44.40:487][347]LogSlate: Window 'BP_Bench' being destroyed
+[2020.09.06-15.44.40:491][347]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.44.40:491][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.44.41:751][474]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.51:740][502]BlueprintLog: New page: Compile BP_car
+[2020.09.06-15.44.51:772][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.09.06-15.44.52:190][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_car" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset" SILENT=true
+[2020.09.06-15.44.52:211][539]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_carAC94A8964746BD353CDC65AA133AB5CA.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_car.uasset'
+[2020.09.06-15.44.52:222][539]AssetCheck: New page: Asset Save: BP_car
+[2020.09.06-15.44.52:222][539]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_car.BP_car
+[2020.09.06-15.44.55:044][860]LogSlate: Window 'BP_car' being destroyed
+[2020.09.06-15.44.55:048][860]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.44.55:048][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.45.03:323][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.09.06-15.45.04:616][957]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_FoodCart.BP_FoodCart
+[2020.09.06-15.45.33:149][289]BlueprintLog: New page: Compile BP_FoodCart
+[2020.09.06-15.45.33:179][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.09.06-15.45.39:357][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_FoodCart" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FoodCart.uasset" SILENT=true
+[2020.09.06-15.45.39:375][948]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_FoodCartA9F42173465E86D6111ED98B4A5260B4.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FoodCart.uasset'
+[2020.09.06-15.45.39:388][948]AssetCheck: New page: Asset Save: BP_FoodCart
+[2020.09.06-15.45.39:388][948]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_FoodCart.BP_FoodCart
+[2020.09.06-15.45.52:667][434]LogSlate: Window 'BP_FoodCart' being destroyed
+[2020.09.06-15.45.52:685][434]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.45.52:685][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.46.01:092][410]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.09.06-15.46.30:228][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.09.06-15.46.30:233][826]LogMetaData: Removing '/Game/BP/BP_LbuildingB.SKEL_BP_LbuildingB_C' ref from Metadata '/Game/BP/BP_FoodCart1.PackageMetaData'
+[2020.09.06-15.46.30:233][826]LogMetaData: Removing '/Game/BP/BP_LbuildingB.BP_LbuildingB_C' ref from Metadata '/Game/BP/BP_FoodCart1.PackageMetaData'
+[2020.09.06-15.46.30:260][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_LbuildingB" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset" SILENT=true
+[2020.09.06-15.46.30:279][826]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_LbuildingB4675DC434736434056834CB3A8A142E4.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset'
+[2020.09.06-15.46.30:412][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.09.06-15.46.30:432][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.09.06-15.46.30:446][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.09.06-15.46.30:472][826]AssetCheck: New page: Asset Save: BP_LbuildingB
+[2020.09.06-15.46.30:472][826]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_LbuildingB.BP_LbuildingB
+[2020.09.06-15.46.33:533][187]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_LbuildingB.BP_LbuildingB
+[2020.09.06-15.46.52:052][172]BlueprintLog: New page: Compile BP_LbuildingB
+[2020.09.06-15.46.52:081][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.09.06-15.46.52:689][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_LbuildingB" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset" SILENT=true
+[2020.09.06-15.46.52:714][232]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_LbuildingBA2775397411344EF0B336095CBE4966D.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_LbuildingB.uasset'
+[2020.09.06-15.46.52:725][232]AssetCheck: New page: Asset Save: BP_LbuildingB
+[2020.09.06-15.46.52:725][232]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_LbuildingB.BP_LbuildingB
+[2020.09.06-15.47.33:267][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.09.06-15.47.34:448][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_MHouse3.BP_MHouse3
+[2020.09.06-15.47.43:340][947]BlueprintLog: New page: Compile BP_MHouse3
+[2020.09.06-15.47.43:372][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.09.06-15.47.44:037][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_MHouse3" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_MHouse3.uasset" SILENT=true
+[2020.09.06-15.47.44:052][ 10]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_MHouse35862F4E54A1F7A01D20F208BCFD3B04B.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_MHouse3.uasset'
+[2020.09.06-15.47.44:064][ 10]AssetCheck: New page: Asset Save: BP_MHouse3
+[2020.09.06-15.47.44:064][ 10]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_MHouse3.BP_MHouse3
+[2020.09.06-15.47.50:915][749]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.47.50:915][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.47.53:293][ 10]LogSlate: Window 'BP_LbuildingB' being destroyed
+[2020.09.06-15.47.53:313][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.06-15.47.53:313][ 10]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.47.53:313][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.48.17:793][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.09.06-15.48.19:579][ 48]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_FinalBuilding.BP_FinalBuilding
+[2020.09.06-15.48.34:197][637]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.48.34:227][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.09.06-15.48.56:533][ 61]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.48.56:563][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.09.06-15.48.59:123][320]LogRenderer: Reallocating scene render targets to support 1208x700 Format 10 NumSamples 1 (Frame:1).
+[2020.09.06-15.50.26:579][203]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.50.26:627][203]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.09.06-15.50.42:833][991]BlueprintLog: New page: Compile BP_FinalBuilding
+[2020.09.06-15.50.42:875][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.09.06-15.50.43:583][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_FinalBuilding" FILE="C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FinalBuilding.uasset" SILENT=true
+[2020.09.06-15.50.43:599][ 60]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/BP_FinalBuildingA54CE682497EC1AE8D888C81108A3E91.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/BP/BP_FinalBuilding.uasset'
+[2020.09.06-15.50.43:611][ 60]AssetCheck: New page: Asset Save: BP_FinalBuilding
+[2020.09.06-15.50.43:611][ 60]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_FinalBuilding.BP_FinalBuilding
+[2020.09.06-15.51.04:155][471]LogSlate: Window 'BP_FinalBuilding' being destroyed
+[2020.09.06-15.51.04:178][471]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.51.04:178][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.51.31:643][552]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.06-15.51.31:662][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.06-15.51.31:662][552]PIE: New page: PIE session: FirstPersonExampleMap (6 sept. 2020 07 h 51 min 31 s)
+[2020.09.06-15.51.31:663][552]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.06-15.51.31:663][552]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.06-15.51.31:663][552]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.51.31:684][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020064s)
+[2020.09.06-15.51.31:685][552]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-15.51.31:685][552]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001979AD0D800), frame # 76552
+[2020.09.06-15.51.31:685][552]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019700EED080), frame # 76552
+[2020.09.06-15.51.31:685][552]LogPlayLevel: PIE: World Init took: (0.001479s)
+[2020.09.06-15.51.31:685][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021709s)
+[2020.09.06-15.51.31:740][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.06-15.51.31:745][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.06-15.51.31:745][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.06-15.51.31:746][552]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.06-15.51.31:746][552]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.06-15.51.31:764][552]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.06-15.51.31:764][552]LogAudioMixer: Display: 1: FrontRight
+[2020.09.06-15.51.31:791][552]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.06-15.51.31:792][552]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.06-15.51.31:802][552]LogInit: FAudioDevice initialized.
+[2020.09.06-15.51.31:808][552]LogLoad: Game class is 'creativejamGameMode'
+[2020.09.06-15.51.31:812][552]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.06-11.51.31
+[2020.09.06-15.51.31:812][552]LogWorld: Bringing up level for play took: 0.003132
+[2020.09.06-15.51.31:812][552]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.09.06-15.51.31:815][552]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.09.06-15.51.31:825][552]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (DestructionAura) or object (FirstPersonCharacter_C_0)
+[2020.09.06-15.51.31:825][552]PIE: Server logged in
+[2020.09.06-15.51.31:827][552]PIE: Play in editor total start time 0,168 seconds.
+[2020.09.06-15.52.38:758][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.52.38:758][537]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.52.38:758][537]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.52.38:759][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.52.38:770][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.06-15.52.38:773][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.52.38:806][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.52.38:811][537]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019700EED080), frame # 84537
+[2020.09.06-15.52.38:811][537]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001979AD0D800), frame # 84537
+[2020.09.06-15.52.38:827][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.09.06-15.52.38:860][538]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.09.06-15.53.05:194][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.09.06-15.53.05:271][972]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonExampleMap_Auto18C8575BD48620E4E652ED6A7DDFE1A12.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.09.06-15.53.05:276][972]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.097
+[2020.09.06-15.53.05:276][972]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.097
+[2020.09.06-15.53.25:390][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.09.06-15.53.25:450][176]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonExampleMap229DC940438FD5769279E4AA69FE01E5.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2020.09.06-15.53.25:505][176]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2020.09.06-15.53.25:505][176]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.09.06-15.54.07:868][ 74]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.06-15.54.07:885][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.06-15.54.07:885][ 74]PIE: New page: PIE session: FirstPersonExampleMap (6 sept. 2020 07 h 54 min 07 s)
+[2020.09.06-15.54.07:917][ 74]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.54.07:934][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016474s)
+[2020.09.06-15.54.07:935][ 74]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-15.54.07:935][ 74]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001979B3CA200), frame # 90074
+[2020.09.06-15.54.07:935][ 74]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001977FB61440), frame # 90074
+[2020.09.06-15.54.07:935][ 74]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2020.09.06-15.54.07:935][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017969s)
+[2020.09.06-15.54.07:970][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.06-15.54.07:975][ 74]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.06-15.54.07:975][ 74]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.06-15.54.07:976][ 74]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.06-15.54.07:976][ 74]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.06-15.54.07:995][ 74]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.06-15.54.07:995][ 74]LogAudioMixer: Display: 1: FrontRight
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.06-15.54.08:024][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.06-15.54.08:033][ 74]LogInit: FAudioDevice initialized.
+[2020.09.06-15.54.08:043][ 74]LogLoad: Game class is 'creativejamGameMode'
+[2020.09.06-15.54.08:047][ 74]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.06-11.54.08
+[2020.09.06-15.54.08:047][ 74]LogWorld: Bringing up level for play took: 0.003205
+[2020.09.06-15.54.08:047][ 74]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2020.09.06-15.54.08:059][ 74]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (DestructionAura) or object (FirstPersonCharacter_C_0)
+[2020.09.06-15.54.08:059][ 74]PIE: Server logged in
+[2020.09.06-15.54.08:060][ 74]PIE: Play in editor total start time 0,175 seconds.
+[2020.09.06-15.55.42:124][325]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2020.09.06-15.55.42:216][326]LogAnimation: Warning: SkeletalMesh RiggedBaby has no skeleton. This needs to fixed before an animation can be set
+[2020.09.06-15.55.52:072][402]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.56.18:692][976]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.06-15.58.50:148][380]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.09.06-15.58.58:198][314]LogEditorViewport: Clicking on Actor (LMB): BP_FinalBuilding_C (BP_FinalBuilding)
+[2020.09.06-15.59.17:747][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.59.17:747][576]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.06-15.59.17:747][576]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.59.17:748][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.59.17:760][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.06-15.59.17:763][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-15.59.17:778][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.06-15.59.17:793][576]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001977FB61440), frame # 120576
+[2020.09.06-15.59.17:793][576]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001979B3CA200), frame # 120576
+[2020.09.06-15.59.17:795][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.09.06-15.59.17:831][577]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2020.09.06-15.59.29:218][689]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.59.29:254][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.09.06-15.59.29:991][760]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacter10AFFC3F4FA8E638FD1346B912A97C63.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.30:007][760]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.30:007][760]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.34:634][275]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacter92D6102546D2C3C9FE5B70A6FAB2CE44.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.34:645][275]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.34:645][275]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.35:169][333]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.59.35:206][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.09.06-15.59.36:869][513]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacterDC34656043223B53B04DB78A3E9C5B81.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.36:881][513]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.36:881][513]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.52:063][199]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.09.06-15.59.52:098][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.09.06-15.59.52:551][238]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/FirstPersonCharacter9C74B8FD46771CAACFDC05A9AFD6FFC1.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2020.09.06-15.59.52:562][238]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.09.06-15.59.52:562][238]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.09.06-15.59.56:596][689]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2020.09.06-15.59.56:607][689]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-15.59.56:608][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
