@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\creativejam.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EA9D2A51-274A-42FA-9443-0B9A63A76F0B}</UniqueIdentifier>
+      <UniqueIdentifier>{78D1B4BF-7CF8-470A-9583-0E5FC0A0CC48}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\creativejam.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A1BEFD96-1E32-4BB0-B77F-F3FC1F5C7699}</UniqueIdentifier>
+      <UniqueIdentifier>{13FAF401-95EC-4DCE-BAAD-594021D5EB9B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\creativejam">
-      <UniqueIdentifier>{CDEFDC23-246C-4257-99EE-67D3640D923E}</UniqueIdentifier>
+      <UniqueIdentifier>{63E6DF9A-738E-478A-8FFB-5A5CC0FB1486}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\creativejam\creativejam.Build.cs">
       <Filter>Source\creativejam</Filter>

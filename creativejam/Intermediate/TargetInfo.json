@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "creativejam",
-			"Path": "E:\\Documents\\Game Jam A20\\Creative_jam_2020\\creativejam\\Source\\creativejam.Target.cs",
+			"Path": "C:\\Users\\Nathanael\\Documents\\08_UNREAL_PROJECT\\1_JAM\\New folder\\Creative_jam_2020\\creativejam\\Source\\creativejam.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "creativejamEditor",
-			"Path": "E:\\Documents\\Game Jam A20\\Creative_jam_2020\\creativejam\\Source\\creativejamEditor.Target.cs",
+			"Path": "C:\\Users\\Nathanael\\Documents\\08_UNREAL_PROJECT\\1_JAM\\New folder\\Creative_jam_2020\\creativejam\\Source\\creativejamEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
