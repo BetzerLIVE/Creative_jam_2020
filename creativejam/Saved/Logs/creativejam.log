@@ -4301,3 +4301,43 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.06-16.31.48:470][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2020.09.06-16.32.15:988][ 25]LogSlate: Window 'Levels' being destroyed
 [2020.09.06-16.32.15:992][ 25]LogSlate: Window 'Levels' being destroyed
+[2020.09.06-16.34.09:111][805]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.09.06-16.34.09:125][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.09.06-16.34.11:326][805]LogSlate: Window 'Save Content' being destroyed
+[2020.09.06-16.34.11:362][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.09.06-16.34.11:378][805]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Blocking2_Lv60D154154C174843AD0EC091B55DB812.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/Blocking2_Lv.umap'
+[2020.09.06-16.34.11:380][805]LogFileHelpers: Saving map 'Blocking2_Lv' took 0.033
+[2020.09.06-16.34.11:394][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.09.06-16.34.11:471][805]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/Blocking_Lv50A721214501197CEDF32295A0CEF2E0.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/Blocking_Lv.umap'
+[2020.09.06-16.34.11:473][805]LogFileHelpers: Saving map 'Blocking_Lv' took 0.092
+[2020.09.06-16.34.11:486][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.09.06-16.34.11:503][805]LogSavePackage: Moving 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Saved/MASTER_Lv0A9CA44644634C481D66F8A05CC8E888.tmp' to 'C:/Users/Nathanael/Documents/08_UNREAL_PROJECT/1_JAM/New folder/Creative_jam_2020/creativejam/Content/Maps/MASTER_Lv.umap'
+[2020.09.06-16.34.11:549][805]LogFileHelpers: Saving map 'MASTER_Lv' took 0.076
+[2020.09.06-16.34.11:549][805]LightingResults: New page: Lighting Build
+[2020.09.06-16.34.11:549][805]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2020.09.06-16.34.11:587][805]LogWorld: UWorld::CleanupWorld for MASTER_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.34.11:587][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.34.11:587][805]LogWorld: UWorld::CleanupWorld for Light_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.34.11:587][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.34.11:587][805]LogWorld: UWorld::CleanupWorld for Blocking2_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.34.11:587][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.34.11:587][805]LogWorld: UWorld::CleanupWorld for Blocking_Lv, bSessionEnded=true, bCleanupResources=true
+[2020.09.06-16.34.11:587][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.06-16.34.11:587][805]MapCheck: New page: Map Check
+[2020.09.06-16.34.11:587][805]LightingResults: New page: Lighting Build
+[2020.09.06-16.34.11:603][805]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E78760F40), frame # 144805
+[2020.09.06-16.34.11:603][805]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020EE14C3200), frame # 144805
+[2020.09.06-16.34.11:605][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.09.06-16.34.11:686][805]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.06-16.34.11:686][805]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.06-16.34.11:686][805]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020EFC270600), frame # 144805
+[2020.09.06-16.34.11:686][805]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020EFD513B00), frame # 144805
+[2020.09.06-16.34.11:704][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.09.06-16.34.11:732][805]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.06-16.34.11:732][805]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,1ms to complete.
+[2020.09.06-16.34.11:732][805]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.183
+[2020.09.06-16.34.11:776][805]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.06-16.34.11:776][805]LogContentValidation: Display: Validating World /Game/Maps/Blocking2_Lv.Blocking2_Lv
+[2020.09.06-16.34.11:780][805]LogContentValidation: Display: Validating World /Game/Maps/Blocking_Lv.Blocking_Lv
+[2020.09.06-16.34.11:840][805]LogContentValidation: Display: Validating World /Game/Maps/MASTER_Lv.MASTER_Lv
+[2020.09.06-16.34.11:857][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
