@@ -1,9 +1,0 @@
-C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Development\creativejam\Definitions.creativejam.h
-E:\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Source\creativejam/creativejamCharacter.h
-E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\EpicGames\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\EpicGames\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Nathanael\Documents\08_UNREAL_PROJECT\1_JAM\Creative_jam_2020\creativejam\Intermediate\Build\Win64\UE4Editor\Inc\creativejam\creativejamCharacter.generated.h
